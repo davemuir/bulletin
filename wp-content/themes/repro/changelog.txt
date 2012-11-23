@@ -1,0 +1,115 @@
+*** Repro Changelog ***
+
+14 August 2012 - Version 1.2.1
+
+	* style.css
+		- updated version number
+		- updated copyright
+		- fixed width on 4/5 column
+	* functions.php - added localize script for jquery.custom.js
+	* footer.php 
+		- updated copyright
+		- remove custom.php call
+	* header.php 
+		- updated copyright
+		- fixed stylesheet url to work with child themes
+	
+	ADDED:
+	* jquery.custom.js
+	
+	REMOVED:
+	* custom.php
+	* jquery-ui-1.8.5.custom.js
+
+18 June 2012 - Version 1.2
+
+	* style.css - updated version number
+	* theme-options - moved to wp_get_theme()
+	* admin-interface.php - moved to wp_get_theme()
+	* functions.php
+		- enqueue jQuery UI stuff
+		- fixed squished logo on login screen
+		- fixed url and theme name echo on login
+
+14 Dec 2011 - Version 1.1.5
+	
+	* widget-rsstwitter.php – Fixed Twitter follower count and added default follower count
+	* widget-tweets.php - allow multiple instances
+	* functions.php 
+		– fixed wp_enqueue_scripts
+		– enqueue comment-reply script
+		– updated validation code being used
+	* style.css - updated version number
+	
+	ADDED: 
+	* twitter.js
+
+21 Sept 2011 - Version 1.1.4
+	
+	* tinymce/plugin.js - Fixed shortcode image URL
+	* tinymce/config.php - Fixed shortcode bug
+	* template-contact.php - Fixed bug
+	* functions/theme-shortcodes.php - Tabs now support multiple instances
+	* style.css - Version number change, fixed tab widget bug
+	* functions.php - Fixed enqueue bug
+	* comments.php - translation fix
+	
+15 Aug 2011 - Version 1.1.3
+
+	* functions/widget-rsstwitter.php - Fixed notice
+	* header.php - Added DOCTYPE to fix IE
+
+09 Aug 2011 - Version 1.1.2
+
+	* functions/widget-rsstwitter.php - Minor bug fix
+	* functions/widget-ad120x240.php - Minor bug fix
+	* functions/widget-ad125.php - Minor bug fix
+
+08 Aug 2011 - Version 1.1.1
+
+	* css/superfish.css - Fixed missing images
+	* js/jquery.coda-slider-2.0.js - Fixed wrong image file path
+
+05 Aug 2011 - Version 1.1
+
+	* style.css - Added new shortcode styles
+	* css/colours.php - Bug fixes
+	* 404.php - Removed search form
+	* archive.php - Modified to support new option framework
+	* footer.php - Modified to support new option framework
+	* header.php - Modified to support new option framework, fixed depreciated functions and modified RSS area to only show if available
+	* index-category-list-one.php - Modified to support new option framework and fixed depreciated functions
+	* index-category-list-two.php - Modified to support new option framework and fixed depreciated functions
+	* index-category-list-three.php - Modified to support new option framework and fixed depreciated functions
+	* index-category-list-four.php - Modified to support new option framework and fixed depreciated functions
+	* index-post-columns.php - Modified to support new option framework and fixed depreciated functions
+	* index-slider.php - Modified to support new option framework and fixed depreciated functions
+	* index.php - Modified to support new option framework
+	* search.php - Modified to support new option framework
+	* single.php - Modified to support new option framework
+	* template-contact.php - Error fixes	
+	
+	* functions.php 
+		-Updated file paths for admin files, included new shortcode generator and enqueued new js files.
+		Removed image sizes that are not needed.
+	
+	* functions/theme-shortcodes.php - Added new shortcodes
+	* functions/widget-tweets.php - New twitter widget
+	* functions/widget-video.php - Updated type attribute
+	* functions/widget-tweets.php - Updated type attribute
+	* functions/widget-flickr.php - Updated type attribute
+	* functions/widget-ad120x240.php - Updated type attribute
+	* functions/widget-ad125.php - Updated type attribute
+	* functions/widget-ad300x250.php - Updated type attribute
+	* functions/widget-rsstwitter.php - Updated type attribute
+	* functions/widget-tabbed.php - Updated type attribute and depreciated functions
+	
+	* ADDED	admin/ directory
+	* ADDED	admin/theme-functions.php	
+	* ADDED	admin/theme-options.php
+	* ADDED tinymce/ - New shortcode generator
+	* ADDED images/shortcodes/ - New shortcode images
+	
+14 Nov 2010 - Version 1.0
+	
+	* First Release

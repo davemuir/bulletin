@@ -1,0 +1,1032 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-21 13:10+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Orman <ormanclark@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:13
+#: archive.php:156
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: 404.php:17
+#: archive.php:160
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: archive.php:24
+#, php-format
+msgid "All posts in %s"
+msgstr ""
+
+#: archive.php:26
+#, php-format
+msgid "All posts tagged %s"
+msgstr ""
+
+#: archive.php:28
+#: archive.php:30
+#: archive.php:32
+msgid "Archive for"
+msgstr ""
+
+#: archive.php:34
+msgid "All posts by"
+msgstr ""
+
+#: archive.php:36
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:78
+msgid "Latest"
+msgstr ""
+
+#: archive.php:82
+#: archive.php:108
+#: archive.php:133
+#: index-category-list-four.php:34
+#: index-category-list-one.php:34
+#: index-category-list-three.php:35
+#: index-category-list-two.php:34
+#: index-post-columns.php:28
+#: index-slider.php:32
+#: search.php:40
+msgid "No comments"
+msgstr ""
+
+#: archive.php:82
+#: archive.php:108
+#: archive.php:133
+#: index-category-list-four.php:34
+#: index-category-list-one.php:34
+#: index-category-list-three.php:35
+#: index-category-list-two.php:34
+#: index-post-columns.php:28
+#: index-slider.php:32
+#: search.php:40
+msgid "1 Comment"
+msgstr ""
+
+#: archive.php:82
+#: archive.php:108
+#: archive.php:133
+#: comments.php:21
+#: index-category-list-four.php:34
+#: index-category-list-one.php:34
+#: index-category-list-three.php:35
+#: index-category-list-two.php:34
+#: index-post-columns.php:28
+#: index-slider.php:32
+#: search.php:40
+msgid "% Comments"
+msgstr ""
+
+#: archive.php:174
+#: search.php:98
+msgid "&larr; Older Entries"
+msgstr ""
+
+#: archive.php:175
+#: search.php:99
+msgid "Newer Entries &rarr;"
+msgstr ""
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:21
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:21
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:21
+msgid "on"
+msgstr ""
+
+#: comments.php:29
+msgid "Trackbacks for this post"
+msgstr ""
+
+#: comments.php:38
+msgid "Comments are now closed for this article."
+msgstr ""
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:66
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:66
+#, php-format
+msgid "Leave a Comment to %s"
+msgstr ""
+
+#: comments.php:73
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: comments.php:80
+#, php-format
+msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+msgstr ""
+
+#: comments.php:80
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:86
+msgid "Name"
+msgstr ""
+
+#: comments.php:86
+#: comments.php:90
+msgid "(required)"
+msgstr ""
+
+#: comments.php:90
+#: header.php:67
+msgid "Email"
+msgstr ""
+
+#: comments.php:94
+msgid "Website"
+msgstr ""
+
+#: comments.php:106
+msgid "Submit Comment"
+msgstr ""
+
+#: footer.php:48
+msgid "Powered by"
+msgstr ""
+
+#: footer.php:48
+msgid "WordPress"
+msgstr ""
+
+#: functions.php:16
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:17
+msgid "Secondary Menu"
+msgstr ""
+
+#: functions.php:271
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:274
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: header.php:55
+msgid "Subscribe"
+msgstr ""
+
+#: header.php:56
+msgid "By"
+msgstr ""
+
+#: header.php:59
+msgid "RSS"
+msgstr ""
+
+#: header.php:63
+msgid "or"
+msgstr ""
+
+#: header.php:94
+msgid "Home"
+msgstr ""
+
+#: index-category-list-four.php:41
+#: index-category-list-one.php:41
+#: index-category-list-three.php:42
+#: index-category-list-two.php:41
+#: index-post-grid.php:34
+#: index-slider.php:82
+msgid "No posts found."
+msgstr ""
+
+#: index-post-columns.php:41
+msgid "No recent posts found."
+msgstr ""
+
+#: index-slider.php:28
+msgid "Featured"
+msgstr ""
+
+#: search.php:13
+msgid "Search Results"
+msgstr ""
+
+#: search.php:62
+#, php-format
+msgid "<h1>Sorry, but there aren't any posts in the %s category yet.</h1>"
+msgstr ""
+
+#: search.php:64
+msgid "<h1>Sorry, but there aren't any posts with this date.</h1>"
+msgstr ""
+
+#: search.php:67
+#, php-format
+msgid "<h1>Sorry, but there aren't any posts by %s yet.</h1>"
+msgstr ""
+
+#: search.php:69
+msgid "<h1>No posts found.</h1>"
+msgstr ""
+
+#: single.php:33
+msgid "Written by"
+msgstr ""
+
+#: single.php:33
+msgid "in"
+msgstr ""
+
+#: single.php:70
+msgid "About the Author"
+msgstr ""
+
+#: single.php:113
+msgid "Related Posts"
+msgstr ""
+
+#: template-archives.php:36
+msgid "Last 30 Posts"
+msgstr ""
+
+#: template-archives.php:45
+msgid "Archives by Month:"
+msgstr ""
+
+#: template-archives.php:51
+msgid "Archives by Subject:"
+msgstr ""
+
+#: template-contact.php:89
+msgid "Thanks, your email was sent successfully."
+msgstr ""
+
+#: template-contact.php:95
+msgid "Sorry, an error occured."
+msgstr ""
+
+#: template-contact.php:117
+msgid "Message"
+msgstr ""
+
+#: template-contact.php:126
+msgid "Send Email"
+msgstr ""
+
+#: admin/admin-interface.php:686
+msgid "All Categories"
+msgstr ""
+
+#: admin/admin-interface.php:687
+msgid "No Categories"
+msgstr ""
+
+#: admin/admin-interface.php:733
+msgid "All "
+msgstr ""
+
+#: admin/admin-interface.php:734
+msgid "No "
+msgstr ""
+
+#: functions/theme-options.php:72
+msgid "General Settings"
+msgstr ""
+
+#: functions/theme-options.php:76
+msgid "Control and configure the general setup of your theme. Upload your preferred logo, setup your feeds and insert your analytics tracking code."
+msgstr ""
+
+#: functions/theme-options.php:80
+msgid "Enable Plain Text Logo"
+msgstr ""
+
+#: functions/theme-options.php:81
+msgid "Check this to enable a plain text logo rather than an image."
+msgstr ""
+
+#: functions/theme-options.php:86
+msgid "Custom Logo"
+msgstr ""
+
+#: functions/theme-options.php:87
+msgid "Upload a logo for your theme, or specify the image address of your online logo. (http://example.com/logo.png)"
+msgstr ""
+
+#: functions/theme-options.php:92
+msgid "Custom Favicon"
+msgstr ""
+
+#: functions/theme-options.php:93
+msgid "Upload a 16px x 16px Png/Gif image that will represent your website's favicon."
+msgstr ""
+
+#: functions/theme-options.php:98
+msgid "Contact Form Email Address"
+msgstr ""
+
+#: functions/theme-options.php:99
+msgid "Enter the email address where you'd like to receive emails from the contact form, or leave blank to use admin email."
+msgstr ""
+
+#: functions/theme-options.php:104
+msgid "FeedBurner URL"
+msgstr ""
+
+#: functions/theme-options.php:105
+msgid "Enter your full FeedBurner URL (or any other preferred feed URL) if you wish to use FeedBurner over the standard WordPress Feed e.g. http://feeds.feedburner.com/yoururlhere"
+msgstr ""
+
+#: functions/theme-options.php:110
+msgid "FeedBurner Email URL"
+msgstr ""
+
+#: functions/theme-options.php:111
+msgid "Enter your full FeedBurner email URL if you wish to enable users to subscribe to posts by email e.g. http://feedburner.google.com/fb/a/mailverify?uri=usernamehere"
+msgstr ""
+
+#: functions/theme-options.php:117
+msgid "Tracking Code"
+msgstr ""
+
+#: functions/theme-options.php:118
+msgid "Paste your Google Analytics (or other) tracking code here. It will be inserted before the closing body tag of your theme."
+msgstr ""
+
+#: functions/theme-options.php:126
+msgid "Styling Options"
+msgstr ""
+
+#: functions/theme-options.php:131
+msgid "Configure the visual appearance of you theme by selecting a stylesheet if applicable, choosing your overall layout and inserting any custom CSS necessary."
+msgstr ""
+
+#: functions/theme-options.php:134
+msgid "Colorpicker (default #2098a8)"
+msgstr ""
+
+#: functions/theme-options.php:135
+msgid "Choose a colour scheme for your site."
+msgstr ""
+
+#: functions/theme-options.php:140
+msgid "Custom CSS"
+msgstr ""
+
+#: functions/theme-options.php:141
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+#: functions/theme-options.php:150
+msgid "Banner Settings"
+msgstr ""
+
+#: functions/theme-options.php:154
+msgid "Enable and configure a banner advert in your header area. Choose to insert a static image and link or use your adsense code."
+msgstr ""
+
+#: functions/theme-options.php:157
+msgid "Show Header Advert"
+msgstr ""
+
+#: functions/theme-options.php:158
+msgid "Check this to show a banner in the header of your site (468px x 60px)."
+msgstr ""
+
+#: functions/theme-options.php:163
+msgid "Banner Image URL"
+msgstr ""
+
+#: functions/theme-options.php:164
+msgid "Enter the full image URL of your banner (468px x 60px) e.g. http://www.example.com/banner.gif"
+msgstr ""
+
+#: functions/theme-options.php:169
+msgid "Banner Destination URL"
+msgstr ""
+
+#: functions/theme-options.php:170
+msgid "Enter the full destination URL for your banner e.g. http://www.example.com"
+msgstr ""
+
+#: functions/theme-options.php:176
+msgid "Adsense Code"
+msgstr ""
+
+#: functions/theme-options.php:177
+msgid "Include your adsense code here or leave empty if you wish to use an image."
+msgstr ""
+
+#: functions/theme-options.php:186
+msgid "Menu Settings"
+msgstr ""
+
+#: functions/theme-options.php:190
+msgid "The following options allow you to configure your menus. Note: These settings will be overwritten if you are using custom menus functionality."
+msgstr ""
+
+#: functions/theme-options.php:193
+msgid "Show Home Link"
+msgstr ""
+
+#: functions/theme-options.php:194
+msgid "Check this box to show a \"home\" link in the main navigation."
+msgstr ""
+
+#: functions/theme-options.php:199
+msgid "Exclude from Navigation"
+msgstr ""
+
+#: functions/theme-options.php:200
+msgid "Enter a comma-separated list of any Page IDs you wish to exclude from the navigation (e.g. 1,5,6,)."
+msgstr ""
+
+#: functions/theme-options.php:205
+msgid "Exclude from Secondary Navigation"
+msgstr ""
+
+#: functions/theme-options.php:206
+msgid "Enter a comma-separated list of any Category IDs you wish to exclude from the navigation (e.g. 1,5,6,)."
+msgstr ""
+
+#: functions/theme-options.php:211
+msgid "Menu Order"
+msgstr ""
+
+#: functions/theme-options.php:212
+msgid "Choose what order the navigation will be in, either the order you set in WordPress settings (menu_order) or alphabetically (post_title)."
+msgstr ""
+
+#: functions/theme-options.php:222
+msgid "Homepage Settings"
+msgstr ""
+
+#: functions/theme-options.php:227
+msgid "Slider Settings"
+msgstr ""
+
+#: functions/theme-options.php:231
+msgid "Enable Slider"
+msgstr ""
+
+#: functions/theme-options.php:232
+msgid "Check this to show the slider section. Posts tagged with 'slider' will display here."
+msgstr ""
+
+#: functions/theme-options.php:237
+msgid "Enable Autostart"
+msgstr ""
+
+#: functions/theme-options.php:238
+msgid "Check this to enable autoscrolling on the slider."
+msgstr ""
+
+#: functions/theme-options.php:243
+msgid "Autoscroll Delay"
+msgstr ""
+
+#: functions/theme-options.php:244
+msgid "Enter the time in milliseconds of the delay before transitions (where 1000 = 1second)."
+msgstr ""
+
+#: functions/theme-options.php:254
+msgid "Recent Post Settings"
+msgstr ""
+
+#: functions/theme-options.php:258
+msgid "Recent Post Title"
+msgstr ""
+
+#: functions/theme-options.php:259
+msgid "Choose your title for the recent posts section."
+msgstr ""
+
+#: functions/theme-options.php:264
+msgid "Number of Recent Posts"
+msgstr ""
+
+#: functions/theme-options.php:265
+msgid "Enter the number of recent posts you wish to display."
+msgstr ""
+
+#: functions/theme-options.php:275
+msgid "Post Grid Settings"
+msgstr ""
+
+#: functions/theme-options.php:278
+msgid "Enable Post Grid"
+msgstr ""
+
+#: functions/theme-options.php:279
+msgid "Check this to enable the post grid, all posts with the tag 'grid' will show"
+msgstr ""
+
+#: functions/theme-options.php:284
+msgid "Post Grid Title"
+msgstr ""
+
+#: functions/theme-options.php:285
+msgid "Choose your title for the post grid section."
+msgstr ""
+
+#: functions/theme-options.php:290
+msgid "Number of Post Grid Posts"
+msgstr ""
+
+#: functions/theme-options.php:291
+msgid "Enter the number of posts you wish to display."
+msgstr ""
+
+#: functions/theme-options.php:301
+msgid "Category Block Settings"
+msgstr ""
+
+#: functions/theme-options.php:305
+msgid "Enable Top 2 Blocks"
+msgstr ""
+
+#: functions/theme-options.php:306
+msgid "Check this to enable the top 2 category blocks"
+msgstr ""
+
+#: functions/theme-options.php:311
+msgid "Block One Category"
+msgstr ""
+
+#: functions/theme-options.php:317
+msgid "No. of Block One Posts"
+msgstr ""
+
+#: functions/theme-options.php:318
+msgid "Enter the number of posts you wish to display in block one"
+msgstr ""
+
+#: functions/theme-options.php:323
+msgid "Block Two Category"
+msgstr ""
+
+#: functions/theme-options.php:329
+msgid "No. of Block Two Posts"
+msgstr ""
+
+#: functions/theme-options.php:330
+msgid "Enter the number of posts you wish to display in block two"
+msgstr ""
+
+#: functions/theme-options.php:335
+msgid "Enable Bottom 2 Blocks"
+msgstr ""
+
+#: functions/theme-options.php:336
+msgid "Check this to enable the bottom 2 category blocks"
+msgstr ""
+
+#: functions/theme-options.php:341
+msgid "Block Three Category"
+msgstr ""
+
+#: functions/theme-options.php:347
+msgid "No. of Block Three Posts"
+msgstr ""
+
+#: functions/theme-options.php:348
+msgid "Enter the number of posts you wish to display in block three"
+msgstr ""
+
+#: functions/theme-options.php:353
+msgid "Block Four Category"
+msgstr ""
+
+#: functions/theme-options.php:359
+msgid "No. of Block Four Posts"
+msgstr ""
+
+#: functions/theme-options.php:360
+msgid "Enter the number of posts you wish to display in block four"
+msgstr ""
+
+#: functions/theme-options.php:367
+msgid "Post Settings"
+msgstr ""
+
+#: functions/theme-options.php:371
+msgid "Here you can configure how you would like your posts to function. Choose whether to display author bios, related posts and more."
+msgstr ""
+
+#: functions/theme-options.php:374
+msgid "Show Author Bios"
+msgstr ""
+
+#: functions/theme-options.php:375
+msgid "Check this to show an author bio panel on each post page."
+msgstr ""
+
+#: functions/theme-options.php:380
+msgid "Enable Featured Image"
+msgstr ""
+
+#: functions/theme-options.php:381
+msgid "Check this to show the featured image on the post page"
+msgstr ""
+
+#: functions/theme-options.php:386
+msgid "Show Related Posts"
+msgstr ""
+
+#: functions/theme-options.php:387
+msgid "Check this to show related posts (same category) on post pages"
+msgstr ""
+
+#: functions/theme-options.php:392
+msgid "No. of Related Posts"
+msgstr ""
+
+#: functions/theme-options.php:393
+msgid "Enter the number of related posts you wish to display"
+msgstr ""
+
+#: functions/theme-options.php:398
+msgid "Related Post Type"
+msgstr ""
+
+#: functions/theme-options.php:399
+msgid "Would you like to relate posts by tag or category?"
+msgstr ""
+
+#: functions/widget-ad120x240.php:35
+msgid "A widget that allows the display and configuration of of a single 120x240 Banner."
+msgstr ""
+
+#: functions/widget-ad120x240.php:41
+msgid "Custom 120x240 Ad"
+msgstr ""
+
+#: functions/widget-ad120x240.php:115
+#: functions/widget-ad125.php:184
+#: functions/widget-ad300x250.php:118
+#: functions/widget-flickr.php:121
+msgid "Title:"
+msgstr ""
+
+#: functions/widget-ad120x240.php:121
+#: functions/widget-ad300x250.php:124
+msgid "Ad image url:"
+msgstr ""
+
+#: functions/widget-ad120x240.php:127
+#: functions/widget-ad300x250.php:130
+msgid "Ad link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:35
+msgid "A widget that allows the display and configuration of 6 125x125 ads blocks."
+msgstr ""
+
+#: functions/widget-ad125.php:41
+msgid "Custom 125x125 Ads"
+msgstr ""
+
+#: functions/widget-ad125.php:190
+msgid "Ad 1 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:196
+msgid "Ad 1 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:202
+msgid "Ad 2 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:208
+msgid "Ad 2 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:214
+msgid "Ad 3 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:220
+msgid "Ad 3 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:226
+msgid "Ad 4 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:232
+msgid "Ad 4 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:238
+msgid "Ad 5 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:244
+msgid "Ad 5 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:250
+msgid "Ad 6 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:256
+msgid "Ad 6 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:262
+msgid "Randomize ads order?"
+msgstr ""
+
+#: functions/widget-ad300x250.php:35
+msgid "A widget that allows the display and configuration of of a single 300x250 Banner."
+msgstr ""
+
+#: functions/widget-ad300x250.php:41
+msgid "Custom 300x250 Ad"
+msgstr ""
+
+#: functions/widget-flickr.php:35
+msgid "A widget that displays your Flickr photos."
+msgstr ""
+
+#: functions/widget-flickr.php:41
+msgid "Custom Flickr Photos"
+msgstr ""
+
+#: functions/widget-flickr.php:127
+msgid "Flickr ID:"
+msgstr ""
+
+#: functions/widget-flickr.php:133
+msgid "Number of Photos:"
+msgstr ""
+
+#: functions/widget-flickr.php:150
+msgid "Type (user or group):"
+msgstr ""
+
+#: functions/widget-flickr.php:159
+msgid "Display (random or latest):"
+msgstr ""
+
+#: functions/widget-rsstwitter.php:35
+msgid "A widget that counts how many RSS subscribers and Twitter followers you have."
+msgstr ""
+
+#: functions/widget-rsstwitter.php:41
+msgid "Custom RSS and Twitter counter"
+msgstr ""
+
+#: functions/widget-rsstwitter.php:100
+msgid "Subscribers"
+msgstr ""
+
+#: functions/widget-rsstwitter.php:118
+msgid "Followers"
+msgstr ""
+
+#: functions/widget-rsstwitter.php:179
+msgid "RSS Acount:"
+msgstr ""
+
+#: functions/widget-rsstwitter.php:185
+msgid "RSS Refresh Text:"
+msgstr ""
+
+#: functions/widget-rsstwitter.php:191
+msgid "Twitter Acount:"
+msgstr ""
+
+#: functions/widget-tabbed.php:35
+msgid "A tabbed widget that display popular posts, recent posts, comments and tags."
+msgstr ""
+
+#: functions/widget-tabbed.php:41
+msgid "Custom Tabbed Widget"
+msgstr ""
+
+#: functions/widget-tabbed.php:152
+#: functions/widget-tabbed.php:156
+msgid "on "
+msgstr ""
+
+#: functions/widget-tabbed.php:237
+msgid "Tab 1 Title:"
+msgstr ""
+
+#: functions/widget-tabbed.php:243
+msgid "Tab 2 Title:"
+msgstr ""
+
+#: functions/widget-tabbed.php:249
+msgid "Tab 3 Title:"
+msgstr ""
+
+#: functions/widget-tabbed.php:255
+msgid "Tab 4 Title:"
+msgstr ""
+
+#: functions/widget-tweets.php:41
+msgid "A widget that displays your latest tweets."
+msgstr ""
+
+#: functions/widget-tweets.php:47
+msgid "Custom Latest Tweets"
+msgstr ""
+
+#: functions/widget-tweets.php:145
+msgid "Twitter Username e.g. ormanclark"
+msgstr ""
+
+#: functions/widget-tweets.php:151
+msgid "Number of tweets (max 20)"
+msgstr ""
+
+#: functions/widget-tweets.php:157
+msgid "Follow Text e.g. Follow me on Twitter"
+msgstr ""
+
+#: functions/widget-video.php:35
+msgid "A widget that displays your YouTube or Vimeo Video."
+msgstr ""
+
+#: functions/widget-video.php:41
+msgid "Custom Video Widget"
+msgstr ""
+
+#: functions/widget-video.php:126
+msgid "Embed Code (Best at 290px wide)"
+msgstr ""
+
+#: functions/widget-video.php:132
+msgid "Short Description:"
+msgstr ""
+
+#: js/custom.php:55
+#: js/custom.php:57
+#: js/custom.php:61
+msgid "to search, type and hit enter"
+msgstr ""
+
+#: tinymce/config.php:9
+msgid "Button URL"
+msgstr ""
+
+#: tinymce/config.php:10
+msgid "Add the button's url eg http://example.com"
+msgstr ""
+
+#: tinymce/config.php:14
+msgid "Button's Style"
+msgstr ""
+
+#: tinymce/config.php:15
+msgid "Select the button's style, ie the buttons colour"
+msgstr ""
+
+#: tinymce/config.php:29
+msgid "Button's Size"
+msgstr ""
+
+#: tinymce/config.php:30
+msgid "Select the button's size"
+msgstr ""
+
+#: tinymce/config.php:39
+msgid "Button's Text"
+msgstr ""
+
+#: tinymce/config.php:40
+msgid "Add the button's text"
+msgstr ""
+
+#: tinymce/config.php:44
+msgid "Insert Button Shortcode"
+msgstr ""
+
+#: tinymce/config.php:52
+msgid "Alert's Style"
+msgstr ""
+
+#: tinymce/config.php:53
+msgid "Select the slter's style, ie the alert colour"
+msgstr ""
+
+#: tinymce/config.php:64
+msgid "Alert's Text"
+msgstr ""
+
+#: tinymce/config.php:65
+msgid "Add the alert's text"
+msgstr ""
+
+#: tinymce/config.php:70
+msgid "Insert Alert Shortcode"
+msgstr ""
+
+#: tinymce/config.php:78
+msgid "Toggle Content Title"
+msgstr ""
+
+#: tinymce/config.php:79
+msgid "Add the title that will go above the toggle content"
+msgstr ""
+
+#: tinymce/config.php:85
+msgid "Toggle Content"
+msgstr ""
+
+#: tinymce/config.php:86
+msgid "Add the toggle content."
+msgstr ""
+
+#: tinymce/config.php:91
+msgid "Insert Toggle Content Shortcode"
+msgstr ""
+
+#: tinymce/config.php:99
+msgid "Tab Titles"
+msgstr ""
+
+#: tinymce/config.php:100
+msgid "Please enter the tab titles here, seperating each by a comma. They must match the tabs that are created below."
+msgstr ""
+
+#: tinymce/config.php:105
+msgid "Insert Column Shortcode"
+msgstr ""
+
+#: tinymce/config.php:112
+msgid "Tab Title"
+msgstr ""
+
+#: tinymce/config.php:113
+msgid "Title of the tab"
+msgstr ""
+
+#: tinymce/config.php:118
+msgid "Tab Content"
+msgstr ""
+
+#: tinymce/config.php:119
+msgid "Add the tabs content"
+msgstr ""
+
+#: tinymce/config.php:123
+msgid "Add Tab"
+msgstr ""
+
+#: tinymce/config.php:131
+msgid "Insert Columns Shortcode"
+msgstr ""
+
+#: tinymce/config.php:139
+msgid "Column Type"
+msgstr ""
+
+#: tinymce/config.php:140
+msgid "Select the type, ie width of the column."
+msgstr ""
+
+#: tinymce/config.php:169
+msgid "Column Content"
+msgstr ""
+
+#: tinymce/config.php:170
+msgid "Add the column content."
+msgstr ""
+
+#: tinymce/config.php:174
+msgid "Add Column"
+msgstr ""
+

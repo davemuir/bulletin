@@ -15,14 +15,18 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
     <div class="container_12">
         
         <div class="grid_8">
-        	
+        	<!--
             <?php if($tz_slider_display == 'true') : ?>
             
             <?php get_template_part('index', 'slider'); ?>
             
             <?php endif; ?>
             
+            <div class="grid_8 alpha omega">
             
+                <?php get_template_part('index', 'post-columns'); ?>
+                
+            </div><!--grid_8 alpha omega-->
             
             <?php if($tz_post_grid_display == 'true') : ?>
             
@@ -75,7 +79,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
             <?php endif; ?>
     
         </div><!--grid_8-->
-        
+        -->
         <div class="grid_4" style="margin-right: 0;">
         
             <?php get_sidebar(); ?>

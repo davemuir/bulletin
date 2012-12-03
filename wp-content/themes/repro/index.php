@@ -94,7 +94,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
     
     <div class="container_12">
     	
-    	<div class="grid_8 alpha omega">
+    	<div class="grid_12 alpha omega">
             
                 <?php get_template_part('index', 'post-columns'); ?>
                 

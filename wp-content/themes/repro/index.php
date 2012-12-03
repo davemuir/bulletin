@@ -89,20 +89,18 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
         <div class="clear"></div>
         
     </div><!--container_12-->
-    	<?php if($tz_post_grid_display == 'true') : ?>
-            
-            <div class="grid_8 alpha omega">
-            
-                <?php get_template_part('index', 'post-grid'); ?>
-            
-            </div><!--grid_8 alpha omega-->
-            
-           <?php endif; ?>
-            
-            <?php if($tz_top_blocks == 'true') : ?>
+    	
     
     
     <div class="container_12">
+    	
+    	<div class="grid_8 alpha omega">
+            
+                <?php get_template_part('index', 'post-columns'); ?>
+                
+            </div><!--grid_8 alpha omega-->
+    	
+    	
     	
     </div><!--container_12-->
 

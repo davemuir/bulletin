@@ -97,7 +97,9 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
             
             </div><!--grid_8 alpha omega-->
             
-            <?php endif; ?>
+           <?php endif; ?>
+            
+            <?php if($tz_top_blocks == 'true') : ?>
     
     
     <div class="container_12">

@@ -15,7 +15,7 @@ $tz_recent_number = get_option('tz_recent_number');
 	$i = 1;
 	if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
     
-    <div class="column <?php if($i == 3 || $i == 6 || $i == 9 || $i == 12 || $i == 4) : ?>last<?php endif; ?>">
+    <div class="column <?php if( $i == 8 || $i == 4) : ?>last<?php endif; ?>">
     	
         <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
         

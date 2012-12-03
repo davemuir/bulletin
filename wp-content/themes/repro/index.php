@@ -101,7 +101,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
             </div><!--grid_8 alpha omega-->
     	
     	
-    	
+    	<div class="clear"></div>
     </div><!--container_12-->
 
 </div><!--the_body-->

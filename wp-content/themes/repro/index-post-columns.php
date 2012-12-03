@@ -25,7 +25,7 @@ $tz_recent_number = get_option('tz_recent_number');
         
         <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
         
-        <div class="date"><?php the_time( get_option('date_format') ); ?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
+        <div class="date"><?php the_time( get_option('date_format') ); ?>,<?php the_category('');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
         
         <div class="excerpt">
             <p><?php echo substr(get_the_excerpt(), 0, 150); ?>

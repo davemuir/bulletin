@@ -178,9 +178,9 @@
                     <?php if ( has_nav_menu( 'primary-menu' ) ) : /* if menu location 'primary-menu' exists then use custom menu */ ?>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary-menu', 'menu_class' => 'sf-menu', 'container' => '' ) ); ?>
                     <?php else : /* else use wp_list_categories */ ?>
-                    <!--<ul class="sf-menu">
+                    <ul class="sf-menu">
                         <?php wp_list_categories( array( 'exclude' => $tz_primary_nav_exclude, 'title_li' => '' )); ?>
-                    </ul>-->
+                    </ul>
                     <?php endif; ?>
                     
                     <div class="clear"></div>

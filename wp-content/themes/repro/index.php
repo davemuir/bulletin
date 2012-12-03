@@ -89,6 +89,16 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
         <div class="clear"></div>
         
     </div><!--container_12-->
+    
+    
+    
+    <div class="container_12">
+    	<p>testing container 12</p>
+    	<p>testing container 12</p>
+    	<p>testing container 12</p>
+    	<p>testing container 12</p>
+    	<p>testing container 12</p>
+    </div><!--container_12-->
 
 </div><!--the_body-->
 

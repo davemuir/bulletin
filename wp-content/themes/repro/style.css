@@ -474,7 +474,7 @@ pre {
 
 /* Post Columns, Post Grid, Category List -------------- */
 
-.post_columns h4, .post_grid h4, .category_list h4, #sidebar .widget h4, #author h4, #related h4{
+.post_columns h4, .post_grid h4, .category_list h4, #sidebar .widget h4, #author h4, #related h4, .hfour{
 	background:url(images/header_bg.gif) center repeat-x;
 	display:block;
 	font-size:14px;

@@ -15,7 +15,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
     <div class="container_12">
         
         <div class="grid_8">
-        	<h4 class="hfour">&embsp;<span>&embsp; Toronto Scene </span></h4>
+        	<h4 class="hfour"><span> Toronto Scene </span></h4>
         	<div id="galleria">
         		<!--make looping photo addition-->
         		
@@ -31,7 +31,9 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
    				 Galleria.loadTheme('./wp-content/themes/repro/themes/classic/galleria.classic.min.js');
    				 Galleria.run('#galleria', {
     				transition: 'fade',
-    				autoplay:4000
+    				autoplay:true,
+    				autoplay:4000,
+    				pauseOnInteraction:true
 				});
 				</script>
         	</div>

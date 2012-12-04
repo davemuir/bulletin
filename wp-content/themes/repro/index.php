@@ -15,7 +15,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
     <div class="container_12">
         
         <div class="grid_8">
-        	<h4><span><?php echo ("Toronto Scene"/*$tz_recent_title*/); ?></span></h4>
+        	<h4><span>Toronto Scene</span></h4>
         	<div id="galleria">
         		<!--make looping photo addition-->
         		<a href="./wp-content/themes/repro/images/deran.jpg"><img src="./wp-content/themes/repro/images/deran.jpg "></a>

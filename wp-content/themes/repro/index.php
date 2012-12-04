@@ -16,9 +16,6 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
         
         <div class="grid_8">
         	
-        	 <script>
-            if (Galleria) { $("body").text('Galleria works') }
-        </script>
         	
             <?php if($tz_slider_display == 'true') : ?>
             

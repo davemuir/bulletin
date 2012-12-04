@@ -26,13 +26,15 @@
 	<?php wp_head(); ?>
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-	<script src="./js/galleria-1.2.8.min.js"></script>
+	<script src="./wp-content/themes/repro/js/galleria-1.2.8.min.js"></script>
 <!-- END head -->
 </head>
 
 <!-- BEGIN body -->
 <body <?php body_class(); ?>>
-
+ <script>
+            if (Galleria) { $("body").text('Galleria works') }
+        </script>
 <div id="header">
         
     <div id="top">

@@ -33,7 +33,8 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
     				transition: 'fade',
     				autoplay:true,
     				autoplay:4000,
-    				pauseOnInteraction:true
+    				pauseOnInteraction:true,
+    				thumbCrop:true
 				});
 				</script>
         	</div>

@@ -7,7 +7,7 @@ $tz_recent_number = get_option('tz_recent_number');
 
 <div class="post_columns">
 
-    <h4><span><?php echo ($tz_recent_title); ?></span></h4>
+    <h4><span><?php echo ("Recent"/*$tz_recent_title*/); ?></span></h4>
 
     <?php 
 	$query = new WP_Query();

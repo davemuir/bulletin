@@ -6,17 +6,6 @@ Author: ThemeZilla
 Author URI: http://www.themezilla.com
 Version: 1.2.1
 */
-#galleria{
-width:620px;
-height:400px;
-background-color:black;
-}
-
-
-
-
-
-
 /* Import stuff -------------------------------------------------------------- */
 
 @import url('css/reset.css');
@@ -26,6 +15,14 @@ background-color:black;
 @import url('css/tooltips.css');
 
 /* Global -------------------------------------------------------------------- */
+
+#galleria{
+width:620px;
+height:400px;
+background-color:black;
+}
+
+
 
 body{
 	font:12px/20px  "Helvetica Neue", Helvetica, Arial, sans-serif;

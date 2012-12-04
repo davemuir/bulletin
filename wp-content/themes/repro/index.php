@@ -20,7 +20,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
         		<!--make looping photo addition-->
         		
         		<a href="./wp-content/themes/repro/tscene/551135_10150827479526173_506396172_9902842_477219287_n.jpg"><img src="./wp-content/themes/repro/tscene/551135_10150827479526173_506396172_9902842_477219287_n.jpg "></a>
-        		<a href="./wp-content/themes/repro/tscene/game-of-thrones-jon-snow.jpg"><img src="./wp-content/themes/repro/tscene/game-of-thrones-jon-snow.png "></a>
+        		<a href="./wp-content/themes/repro/tscene/game-of-thrones-jon-snow.png"><img src="./wp-content/themes/repro/tscene/game-of-thrones-jon-snow.png "></a>
         		<a href="./wp-content/themes/repro/tscene/Orion-M43-nebula-enhanced.jpg"><img src="./wp-content/themes/repro/tscene/Orion-M43-nebula-enhanced.jpg "></a>
         		<a href="./wp-content/themes/repro/tscene/deran.jpg"><img src="./wp-content/themes/repro/tscene/deran.jpg " data-title="guitar" data-big="./wp-content/themes/repro/images/deran.jpg"></a>
         		<a href="./wp-content/themes/repro/tscene/Uwy8J.jpg"><img src="./wp-content/themes/repro/tscene/Uwy8J.jpg "></a>
@@ -30,7 +30,8 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
         		<script>
    				 Galleria.loadTheme('./wp-content/themes/repro/themes/classic/galleria.classic.min.js');
    				 Galleria.run('#galleria', {
-    				transition: 'fade'
+    				transition: 'fade',
+    				autoplay:4000
 				});
 				</script>
         	</div>

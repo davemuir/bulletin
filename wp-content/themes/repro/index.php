@@ -18,7 +18,11 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
         	
         	<div id="galleria">
         		<!--make looping photo addition-->
-        		<img src="./wp-content/themes/repro/images/deran.jpg ">
+        		<a href="./wp-content/themes/repro/images/deran.jpg"><img src="./wp-content/themes/repro/images/deran.jpg "></a>
+        		<a href="./wp-content/themes/repro/images/deran.jpg"><img src="./wp-content/themes/repro/images/deran.jpg "></a>
+        		<a href="./wp-content/themes/repro/images/deran.jpg"><img src="./wp-content/themes/repro/images/deran.jpg "></a>
+        		<a href="./wp-content/themes/repro/images/deran.jpg"><img src="./wp-content/themes/repro/images/deran.jpg "></a>
+        		<a href="./wp-content/themes/repro/images/deran.jpg"><img src="./wp-content/themes/repro/images/deran.jpg " data-title="guitar"></a>
         		<script>
    				 Galleria.loadTheme('./wp-content/themes/repro/themes/classic/galleria.classic.min.js');
    				 Galleria.run('#galleria');

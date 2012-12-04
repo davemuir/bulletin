@@ -32,10 +32,10 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
         		<a href="./wp-content/themes/repro/tscene/deran.jpg"><img src="./wp-content/themes/repro/tscene/Uwy8J.jpg "></a>
         		<script>
    				 Galleria.loadTheme('./wp-content/themes/repro/themes/classic/galleria.classic.min.js');
-   				 Galleria.run('#galleria'{
-   				 	transition:"fade",
-   				 	autoplay:4000
-   				 });
+   				 Galleria.run('#galleria', {
+    				transition: 'fade',
+   					imageCrop: true
+				});
 				</script>
         	</div>
         	

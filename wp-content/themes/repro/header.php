@@ -25,7 +25,8 @@
 	
 	<?php wp_head(); ?>
 
-
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script src="./js/galleria-1.2.8.min.js"></script>
 <!-- END head -->
 </head>
 

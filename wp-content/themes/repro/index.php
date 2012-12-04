@@ -18,23 +18,22 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
         	<h4 class="hfour">&embsp;<span>&embsp; Toronto Scene </span></h4>
         	<div id="galleria">
         		<!--make looping photo addition-->
-        		<a href="./wp-content/themes/repro/images/deran.jpg"><img src="./wp-content/themes/repro/tscene/1Eq7Y.jpg" data-description="a universe"></a>
+        		<a href="./wp-content/themes/repro/tscene/1Eq7Y.jpg"><img src="./wp-content/themes/repro/tscene/1Eq7Y.jpg" data-description="a universe"></a>
+        		<a href="./wp-content/themes/repro/tscene/551135_10150827479526173_506396172_9902842_477219287_n.jpg"><img src="./wp-content/themes/repro/tscene/551135_10150827479526173_506396172_9902842_477219287_n.jpg "></a>
+        		<a href="./wp-content/themes/repro/tscene/game-of-thrones-jon-snow.jpg"><img src="./wp-content/themes/repro/tscene/game-of-thrones-jon-snow.png "></a>
+        		<a href="./wp-content/themes/repro/tscene/Orion-M43-nebula-enhanced.jpg"><img src="./wp-content/themes/repro/tscene/Orion-M43-nebula-enhanced.jpg "></a>
+        		<a href="./wp-content/themes/repro/tscene/deran.jpg"><img src="./wp-content/themes/repro/tscene/deran.jpg " data-title="guitar" data-big="./wp-content/themes/repro/images/deran.jpg"></a>
+        		<a href="./wp-content/themes/repro/tscene/Uwy8J.jpg"><img src="./wp-content/themes/repro/tscene/Uwy8J.jpg "></a>
+        		<a href="./wp-content/themes/repro/images/1Eq7Y.jpg"><img src="./wp-content/themes/repro/tscene/1Eq7Y.jpg "></a>
         		<a href="./wp-content/themes/repro/tscene/deran.jpg"><img src="./wp-content/themes/repro/tscene/551135_10150827479526173_506396172_9902842_477219287_n.jpg "></a>
         		<a href="./wp-content/themes/repro/tscene/deran.jpg"><img src="./wp-content/themes/repro/tscene/game-of-thrones-jon-snow.png "></a>
-        		<a href="./wp-content/themes/repro/tscene/deran.jpg"><img src="./wp-content/themes/repro/tscene/Orion-M43-nebula-enhanced.jpg "></a>
+        		<a href="./wp-content/themes/repro/tscene/Orion-M43-nebula-enhanced.jpg"><img src="./wp-content/themes/repro/tscene/Orion-M43-nebula-enhanced.jpg "></a>
         		<a href="./wp-content/themes/repro/tscene/deran.jpg"><img src="./wp-content/themes/repro/tscene/deran.jpg " data-title="guitar" data-big="./wp-content/themes/repro/images/deran.jpg"></a>
-        		<a href="./wp-content/themes/repro/tscene/deran.jpg"><img src="./wp-content/themes/repro/tscene/Uwy8J.jpg "></a>
-        		<a href="./wp-content/themes/repro/images/deran.jpg"><img src="./wp-content/themes/repro/tscene/1Eq7Y.jpg "></a>
-        		<a href="./wp-content/themes/repro/tscene/deran.jpg"><img src="./wp-content/themes/repro/tscene/551135_10150827479526173_506396172_9902842_477219287_n.jpg "></a>
-        		<a href="./wp-content/themes/repro/tscene/deran.jpg"><img src="./wp-content/themes/repro/tscene/game-of-thrones-jon-snow.png "></a>
-        		<a href="./wp-content/themes/repro/tscene/deran.jpg"><img src="./wp-content/themes/repro/tscene/Orion-M43-nebula-enhanced.jpg "></a>
-        		<a href="./wp-content/themes/repro/tscene/deran.jpg"><img src="./wp-content/themes/repro/tscene/deran.jpg " data-title="guitar" data-big="./wp-content/themes/repro/images/deran.jpg"></a>
-        		<a href="./wp-content/themes/repro/tscene/deran.jpg"><img src="./wp-content/themes/repro/tscene/Uwy8J.jpg "></a>
+        		<a href="./wp-content/themes/repro/tscene/Uwy8J.jpg"><img src="./wp-content/themes/repro/tscene/Uwy8J.jpg "></a>
         		<script>
    				 Galleria.loadTheme('./wp-content/themes/repro/themes/classic/galleria.classic.min.js');
    				 Galleria.run('#galleria', {
-    				transition: 'fade',
-   					imageCrop: true
+    				transition: 'fade'
 				});
 				</script>
         	</div>

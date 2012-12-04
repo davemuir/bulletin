@@ -32,9 +32,7 @@
 
 <!-- BEGIN body -->
 <body <?php body_class(); ?>>
- <script>
-            if (Galleria) { $("body").text('Galleria works') }
-        </script>
+
 <div id="header">
         
     <div id="top">

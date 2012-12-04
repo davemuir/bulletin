@@ -16,6 +16,13 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
         
         <div class="grid_8">
         	
+        	<div id="galleria">
+        		<script>
+   				 Galleria.loadTheme('./wp-content/themes/repro/themes/classic/galleria.classic.min.js');
+
+   				 Galleria.run('#galleria');
+				</script>
+        	</div>
         	
             <?php if($tz_slider_display == 'true') : ?>
             

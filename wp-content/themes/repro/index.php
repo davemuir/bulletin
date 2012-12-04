@@ -17,9 +17,10 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
         <div class="grid_8">
         	
         	<div id="galleria">
+        		<!--make looping photo addition-->
+        		<img src="./wp-content/themes/repro/images/deran.jpg ">
         		<script>
    				 Galleria.loadTheme('./wp-content/themes/repro/themes/classic/galleria.classic.min.js');
-
    				 Galleria.run('#galleria');
 				</script>
         	</div>

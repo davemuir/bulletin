@@ -2,7 +2,7 @@
 
 <div id="sidebar">
 
-    <?php	/* Widgetised Area */	if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('Main Sidebar') ) ?>
+   <!-- <?php	/* Widgetised Area */	if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('Main Sidebar') ) ?>-->
     
     <div class="widget">
       

@@ -14,6 +14,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 
     <div class="container_12">
         
+        <!--includes slider-->
         <div class="grid_8">
         	<h4 class="hfour"><span> Toronto Scene </span></h4>
         	<div id="galleria">
@@ -39,6 +40,12 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 				</script>
         	</div>
         	
+        	 <div class="grid_4" style="margin-right: 0;">
+        
+            <?php get_sidebar(); ?>
+          
+        	</div><!--grid_4-->
+
         	
         	
             <?php if($tz_slider_display == 'true') : ?>

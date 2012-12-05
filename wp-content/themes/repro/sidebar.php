@@ -26,7 +26,7 @@
 
 <div id="sidebar">
 
-    <!--<?php	/* Widgetised Area */	if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('Sidebar Page') ) ?>-->
+    <?php	/* Widgetised Area */	if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('Sidebar Page') ) ?>
     
     <div class="widget">
         

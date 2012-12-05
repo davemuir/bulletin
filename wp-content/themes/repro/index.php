@@ -41,11 +41,12 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 					</script>
 				</div>
 				
-				<div class="grid_4" style="margin-right: 0;">
+				<div class="new_grid_4">
         
             		<?php get_sidebar(); ?>
           
        			 </div><!--grid_4-->
+       			 
        			 <div class="clear"></div>
         	</div><!--end middle-->
         
@@ -114,11 +115,11 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
         
       
         
-        <div class="grid_4" style="margin-right: 0;">
+       <!-- <div class="grid_4" style="margin-right: 0;">
         
             <?php get_sidebar(); ?>
           
-        </div><!--grid_4-->
+        </div>-->
 
         <div class="clear"></div>
         

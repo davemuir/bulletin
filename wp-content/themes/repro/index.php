@@ -40,15 +40,15 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 					});
 					</script>
 				</div>
-				
-				<div class="new_grid_4">
-        
-            		<?php get_sidebar(); ?>
-          
-       			 </div><!--grid_4-->
-       			 
-       			 <div class="clear"></div>
-        	</div><!--end middle-->
+			</div><!--end grid8-->	
+			<div class="new_grid_4">
+	
+				<?php get_sidebar(); ?>
+	  
+			 </div><!--grid_4-->
+			 
+			 <div class="clear"></div>
+        </div><!--end middle-->
         
     </div><!--container_12-->
     	

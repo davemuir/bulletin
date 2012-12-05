@@ -12,12 +12,44 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 
 <div id="the_body">
 
+	   <div class="container_12">
+        
+        <div id="the_middle">
+			<!--includes slider-->
+			<div class="grid_8">
+				<h4><span> Toronto Scene </span></h4>
+				<div id="galleria">
+					<!--make looping photo addition-->
+					
+					<script>
+					 Galleria.loadTheme('./wp-content/themes/repro/themes/classic/galleria.classic.min.js');
+					 Galleria.run('#galleria', {
+						transition: 'fade',
+						autoplay:true,
+						autoplay:4000,
+						pauseOnInteraction:true,
+						thumbCrop:true
+					});
+					</script>
+				</div>
+			</div><!--end grid8-->	
+			<div class="new_grid_4">
+	
+				<?php get_sidebar(); ?>
+	  
+			 </div><!--grid_4-->
+			 
+			 <div class="clear"></div>
+        </div><!--end middle-->
+        
+    </div><!--container_12-->
+    
     <div class="container_12">
         
         <div id="the_middle">
 			<!--includes slider-->
 			<div class="grid_8">
-				<h4 class="hfour"><span> Toronto Scene </span></h4>
+				<h4><span> Toronto Scene </span></h4>
 				<div id="galleria">
 					<!--make looping photo addition-->
 					

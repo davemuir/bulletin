@@ -23,8 +23,8 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 						<?php $my_query = new WP_Query('category_name=latest&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
-							<!-- Do stuff... -->
-						<?php endwhile; endif; ?>
+							<p><?php the_post()?></p>
+						<?php endwhile; ?>
 
 					
 

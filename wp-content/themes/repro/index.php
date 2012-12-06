@@ -18,7 +18,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 			<!--includes slider-->
 			<div class="grid_8">
 				<div id="top_news">
-					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+					
 					
 						<?php $my_query = new WP_Query('category_name=latest&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
@@ -27,9 +27,6 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 						<?php endwhile; ?>
 
 					
-					<?php endwhile; else: ?>
-						<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-					<?php endif; ?>
 
 				</div>
 			</div><!--end grid8-->	

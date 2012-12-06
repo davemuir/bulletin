@@ -507,7 +507,7 @@ pre {
 	width:610px;
 }
 
-.post_columns h4 span, .post_grid h4 span, .category_list h4 span, #sidebar .widget h4 span, #author h4 span, #related h4 span{
+.post_columns h4 span, .post_grid h4 span, .category_list h4 span, #sidebar .widget h4 span, #author h4 span, #related h4 span,.container_12 h4 span{
 	background: url(images/body_bg.gif) repeat;
 	padding:0 10px 0 10px;
 	margin:0 0 0 19px;

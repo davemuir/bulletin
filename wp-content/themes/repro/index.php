@@ -20,37 +20,12 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 				<div id="top_news">
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					
-						 <?php if ( in_category('1') ) { ?>
-								   <div id="top_news">
-						 <?php } else { ?>
-								   <div class="post">
-						 <?php } ?>
-						
-						
-						 <!-- Display the Title as a link to the Post's permalink. -->
-						
-						 <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-						
-						
-						 <!-- Display the date (November 16th, 2009 format) and a link to other posts by this posts author. -->
-						
-						 <small><?php the_time('F jS, Y') ?> by <?php the_author_posts_link() ?></small>
-						
-						
-						 <!-- Display the Post's content in a div box. -->
-						
-						 <div class="entry">
-						   <?php the_content(); ?>
-						 </div>
-						
-						
-						 <!-- Display a comma separated list of the Post's Categories. -->
-						
-						 <p class="postmetadata">Posted in <?php the_category(', '); ?></p>
-						 </div> <!-- closes the first div box -->
-						
-						
-						 <!-- Stop The Loop (but note the "else:" - see next line). -->
+						<?php $my_query = new WP_Query('category_name=latest&posts_per_page=1');
+						  while ($my_query->have_posts()) : $my_query->the_post();
+						  $do_not_duplicate = $post->ID; ?>
+							<!-- Do stuff... -->
+						<?php endwhile; ?>
+
 					
 					<?php endwhile; else: ?>
 						<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>

@@ -33,11 +33,11 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
     </div><!--container_12-->
     
     <div class="container_12">
-        
+        <h4 class="hfour"><span> Toronto Scene </span></h4>
         <div id="the_middle">
 			<!--includes slider-->
 			<div class="grid_8">
-				<h4 class="hfour"><span> Toronto Scene </span></h4>
+				
 				<div id="galleria">
 					<!--make looping photo addition-->
 					

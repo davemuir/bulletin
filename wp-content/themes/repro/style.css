@@ -846,9 +846,9 @@ pre {
 }
 
 #sidebar .widget{
-	float:left;
-	margin:0 0 97px 0;/* changed due to side bar div jump*/
-	width:300px;
+	
+	margin:0 5px 121px 0;/* changed due to side bar div jump*/
+	width:290px;
 }
 
 #sidebar .widget input{

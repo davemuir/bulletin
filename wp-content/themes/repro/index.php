@@ -17,9 +17,9 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
         <div id="the_middle">
 			<!--includes slider-->
 			<div class="grid_8">
-				<h4 class="hfour"><span> Toronto Scene </span></h4>
+				<h4><span><?php echo ("Recent"); ?></span></h4>
 				<div id="top_news">
-					
+					<p>story</p>
 				</div>
 			</div><!--end grid8-->	
 			<div class="new_grid_4">

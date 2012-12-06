@@ -21,12 +21,15 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 					
 					
 						<?php $my_query = new WP_Query('category_name=latest&posts_per_page=1');
-						  while ($my_query->have_posts()) : $my_query->the_post();
-						  $do_not_duplicate = $post->ID; ?>
-							<p><?php the_post()?></p>
-						<?php endwhile; ?>
-
-					
+  while ($my_query->have_posts()) : $my_query->the_post();
+  $do_not_duplicate = $post->ID;?>
+    <!-- Do stuff... -->
+  <?php endwhile; ?>
+    <!-- Do other stuff... -->
+  <?php if (have_posts()) : while (have_posts()) : the_post(); 
+  if( $post->ID == $do_not_duplicate ) continue; ?>
+   <!-- Do stuff... -->
+  <?php endwhile; endif; ?>
 
 				</div>
 			</div><!--end grid8-->	

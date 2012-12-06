@@ -846,8 +846,8 @@ pre {
 }
 
 #sidebar .widget{
-	
-	margin:0 5px 121px 0;/* changed due to side bar div jump*/
+	float:left;
+	margin:0 5px 121px;/* changed due to side bar div jump*/
 	width:290px;
 }
 

@@ -32,7 +32,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 							</td>
 							 <td id="latest_news_image_cell">
 							 <!--image-->
-							 <?php the_post_thumbnail() ?>
+							 <?php the_post_thumbnail(array(310,228)) ?>
 							 </td> 
 							</tr>
 							<tr>

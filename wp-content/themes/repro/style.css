@@ -44,10 +44,12 @@ font-size:28px;
 padding:17px 0 17px 0;
 }
 #latest_news_image_cell{
-width:310px;
+max-width:310px;
+max-height:228px;
 }
 #latest_news_head_cell{
-width:310px;
+max-width:310px;
+max-height:228px;
 }
 
 

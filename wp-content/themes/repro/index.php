@@ -26,17 +26,17 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 						  
 						  <table>
 						  <tr>
-						  	<td>
+						  	<td id="latest_news_head_cell">
 							  <h1><?php the_title() ?></h1>
 							  <h6><?php the_time(get_option('date_format')) ?>,<?php the_category() ?></h6>
 							</td>
-							 <td>
+							 <td id="latest_news_image_cell">
 							 <!--image-->
 							 <?php the_post_thumbnail() ?>
 							 </td> 
 							</tr>
 							<tr>
-								<td>
+								<td colspan="2">
 						 			<?php the_excerpt(); ?>
 						 		</td>  	
 							</tr>

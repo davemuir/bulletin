@@ -43,24 +43,14 @@ margin-left:10px;
 font-size:28px;
 padding:17px 0 17px 0;
 }
-#latest_news_image_cell{
-max-width:310px;
-max-height:228px;
-}
-#latest_news_head_cell{
-max-width:310px;
-max-height:228px;
-}
-#latest_tr{
-max-height:228px;
-}
-#top_news table{
-width:620px;
-height:448px;
-}
-#latest_news_excerpt_row{
+#latest_excerpt{
 
-width:620px;
+}
+#latest_head{
+
+}
+#latest_image{
+
 }
 
 

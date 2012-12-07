@@ -24,23 +24,17 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
-						  <table>
-						  <tr id="latest_tr">
-						  	<td id="latest_news_head_cell">
+						  <div id="latest_head">
 							  <h1><?php the_title() ?></h1>
 							  <h6><?php the_time(get_option('date_format')) ?>,<?php the_category() ?></h6>
-							</td>
-							 <td id="latest_news_image_cell">
+						</div>
+						<div id="latest_image">
 							 <!--image-->
 							 <?php the_post_thumbnail(array(310,228)) ?>
-							 </td> 
-							</tr>
-							<tr id="latest_news_excerpt_row">
-								<td colspan="2">
-						 			<?php the_excerpt(); ?>
-						 		</td>  	
-							</tr>
-						 </table>
+						</div>
+						<div id="latest_excerpt">
+						 	<?php the_excerpt(); ?>
+						</div> 	
 						<?php endwhile; ?>
 
 					

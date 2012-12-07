@@ -35,7 +35,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 							 <?php the_post_thumbnail(array(310,228)) ?>
 							 </td> 
 							</tr>
-							<tr>
+							<tr id="latest_news_excerpt_row">
 								<td colspan="2">
 						 			<?php the_excerpt(); ?>
 						 		</td>  	

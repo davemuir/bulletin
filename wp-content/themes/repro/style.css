@@ -54,6 +54,14 @@ max-height:228px;
 #latest_tr{
 max-height:228px;
 }
+#top_news table{
+width:620px;
+height:448px;
+}
+#latest_news_excerpt_row{
+
+width:620px;
+}
 
 
 body{

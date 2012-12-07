@@ -315,12 +315,6 @@ function get_category_count($input = '') {
 		return $wpdb->get_var($SQL);
 	}
 }
-//custom wordpress excerpt length FUNCTION_POLYNOMIAL over rides the_excerpt()
-//function custom_excerpt_length( $length ) {
-//	return 200;
-//}
-//add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
-
 
 
 // Add the 125x125 Ad Block Custom Widget

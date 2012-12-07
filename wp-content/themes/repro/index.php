@@ -32,13 +32,14 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 							</td>
 							 <td>
 							 <!--image-->
+							 <?php the_post_thumbnail() ?>
 							 </td> 
-						</tr>
-						<tr>
-						  <div id="latest_content">
-						 	 <p><?php the_excerpt(); ?></p>
-						  </div>
-						</tr>
+							</tr>
+							<tr>
+								<td>
+						 			<?php the_excerpt(); ?>
+						 		</td>  	
+							</tr>
 						 </table>
 						<?php endwhile; ?>
 

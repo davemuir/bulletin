@@ -316,10 +316,10 @@ function get_category_count($input = '') {
 	}
 }
 //custom wordpress excerpt length FUNCTION_POLYNOMIAL over rides the_excerpt()
-function custom_excerpt_length( $length ) {
-	return 100;
-}
-add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+//function custom_excerpt_length( $length ) {
+//	return 200;
+//}
+//add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 
 

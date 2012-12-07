@@ -55,6 +55,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 								}
 							}
 							?>
+							<?php the_excerpt() ?>
 						</div> 	
 						<?php endwhile; ?>
 

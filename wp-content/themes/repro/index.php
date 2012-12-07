@@ -25,7 +25,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 						  $do_not_duplicate = $post->ID; ?>
 						  
 						  <table>
-						  <tr>
+						  <tr id="latest_tr">
 						  	<td id="latest_news_head_cell">
 							  <h1><?php the_title() ?></h1>
 							  <h6><?php the_time(get_option('date_format')) ?>,<?php the_category() ?></h6>

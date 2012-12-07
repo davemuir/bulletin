@@ -43,6 +43,13 @@ margin-left:10px;
 font-size:28px;
 padding:17px 0 17px 0;
 }
+#latest_news_image_cell{
+width:310px;
+}
+#latest_news_head_cell{
+width:310px;
+}
+
 
 body{
 	font:12px/20px  "Helvetica Neue", Helvetica, Arial, sans-serif;

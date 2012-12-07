@@ -23,11 +23,23 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 						<?php $my_query = new WP_Query('category_name=latest&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
-						  <h1><?php the_title() ?></h1>
-						  <h6><?php the_time(get_option('date_format')) ?>,<?php the_category() ?></h6>
+						  
+						  <table>
+						  <tr>
+						  	<td>
+							  <h1><?php the_title() ?></h1>
+							  <h6><?php the_time(get_option('date_format')) ?>,<?php the_category() ?></h6>
+							</td>
+							 <td>
+							 <!--image-->
+							 </td> 
+						</tr>
+						<tr>
 						  <div id="latest_content">
 						 	 <p><?php the_excerpt(); ?></p>
-						 </div>
+						  </div>
+						</tr>
+						 </table>
 						<?php endwhile; ?>
 
 					

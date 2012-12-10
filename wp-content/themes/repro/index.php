@@ -33,7 +33,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 							 <?php the_post_thumbnail(array(300,228)) ?>
 						</div>
 						<div id="latest_excerpt">
-						 	<?php custom_excerpt_length(); ?>
+						 	<?php the_excerpt(); ?>
 						</div> 	
 						<?php endwhile; ?>
 

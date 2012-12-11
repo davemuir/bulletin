@@ -20,7 +20,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 				<div id="top_news">
 					
 					
-						<?php $my_query = new WP_Query('category_name=latest&posts_per_page=1');
+					<?php $my_query = new WP_Query('category_name=latest&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
@@ -33,15 +33,17 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 							 <?php the_post_thumbnail(array(300,228)) ?>
 						</div>
 						<div id="latest_excerpt">
-							<p>
-						 	<?php $excerpt = get_the_excerpt( $deprecated ) ?>
-						 	</p>
+						
+						 	<?php $my_excerpt = get_the_excerpt( $deprecated );
+						 	echo $my_excerpt;
+						 	?>
+						 
 						</div> 	
-						<?php endwhile; ?>
+					<?php endwhile; ?>
 
 					
 
-				</div>
+				</div><!--end topnews-->
 			</div><!--end grid8-->	
 			<div class="new_grid_4">
 	

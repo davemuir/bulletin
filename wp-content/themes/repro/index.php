@@ -33,8 +33,9 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 							 <?php the_post_thumbnail(array(300,228)) ?>
 						</div>
 						<div id="latest_excerpt">
-							
-						 	<?php get_the_excerpt(); ?>
+							<p>
+						 	<?php $excerpt = get_the_excerpt( $deprecated ) ?>
+						 	</p>
 						</div> 	
 						<?php endwhile; ?>
 

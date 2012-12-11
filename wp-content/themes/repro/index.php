@@ -34,7 +34,9 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 						</div>
 						<div id="latest_excerpt">
 						
-						 	<!--<?php the_excerpt_max_charlength(100);?>-->
+						 	<?php $my_excerpt = get_the_excerpt( $deprecated );
+						 	echo $my_excerpt;
+						 	?>
 						 
 						</div> 	
 					<?php endwhile; ?>

@@ -49,6 +49,9 @@ width:600px;
 padding-left:10px;
 padding-right:10px;
 }
+#latest_excerpt p{
+font-size:18px;
+}
 #latest_head{
 float:left;
 padding-left:10px;

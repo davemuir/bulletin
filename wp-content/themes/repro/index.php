@@ -40,7 +40,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 						 	</div>
 						 	<div>
 								<p>
-								<?php echo substr(get_the_excerpt('read on'), 80,200);
+								<?php echo substr(get_the_excerpt($more_link_text), 80,200);
 										
 								?>
 								

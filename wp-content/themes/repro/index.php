@@ -41,7 +41,6 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 						 	<div>
 								<p>
 								<?php echo substr(get_the_excerpt(), 80,200);
-									 echo excerpt_more();
 								?>
 								
 								</p>

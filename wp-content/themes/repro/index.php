@@ -32,15 +32,15 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 							 <?php the_post_thumbnail(array(300,228)) ?>
 						</div>
 						<div id="latest_excerpt">
-							<div>
+							<div id="col1">
 								<p>
 								<?php echo substr(get_the_excerpt(), 0,80);
 								?>
 								</p>
 						 	</div>
-						 	<div>
+						 	<div id="col2">
 								<p>
-								<?php echo substr(get_the_excerpt($more_link_text), 80,200);
+								<?php echo substr(get_the_excerpt(), 80,200);
 										
 								?>
 								

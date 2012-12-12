@@ -65,12 +65,14 @@ padding-top:17px;
 width:300px;
 }
 #col1{
-width:300px
+width:300px;
 float:left;
+height:220px;
 }
 #col2{
-width:300px
+width:300px;
 float:left;
+height:220px;
 }
 
 body{

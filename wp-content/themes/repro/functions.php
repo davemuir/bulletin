@@ -321,8 +321,12 @@ function custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
-//new excerpt length
-
+//read more link
+function new_excerpt_more($more) {
+       global $post;
+	return ' <a href="'. get_permalink($post->ID) . '">Read the Rest...</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
 
 
 // Add the 125x125 Ad Block Custom Widget

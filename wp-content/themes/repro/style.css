@@ -51,6 +51,7 @@ padding-right:10px;
 }
 #latest_excerpt p{
 font-size:18px;
+margin-right:10px;
 }
 #latest_head{
 float:left;
@@ -64,10 +65,12 @@ padding-top:17px;
 width:300px;
 }
 #col1{
-width:150px
+width:300px
+float:left;
 }
 #col2{
-width:150px
+width:300px
+float:left;
 }
 
 body{

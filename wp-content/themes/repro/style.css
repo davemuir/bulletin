@@ -46,33 +46,38 @@ line-height:100%;
 }
 #latest_excerpt{
 width:600px;
+height:240px;
 padding-left:10px;
 padding-right:10px;
+float:left;
 }
 #latest_excerpt p{
 font-size:18px;
 margin-right:10px;
+font-family:"Times New Roman",Georgia,Serif;
 }
 #latest_head{
 float:left;
 padding-left:10px;
 width:300px;
+height:220px;
 }
 #latest_image{
 float:left;
 padding-right:10px;
 padding-top:17px;
 width:300px;
+height:220px;
 }
 #col1{
 width:300px;
 float:left;
-height:220px;
+height:216px;
 }
 #col2{
 width:300px;
 float:left;
-height:220px;
+height:216px;
 }
 
 body{

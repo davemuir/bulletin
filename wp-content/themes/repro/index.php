@@ -34,13 +34,13 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 						<div id="latest_excerpt">
 							<div id="col1">
 								<p>
-								<?php echo substr(get_the_excerpt(), 0,280);
+								<?php echo substr(get_the_excerpt(), 0,358);
 								?>
 								</p>
 						 	</div>
 						 	<div id="col2">
 								<p>
-								<?php echo substr(get_the_excerpt(), 280,360);
+								<?php echo substr(get_the_excerpt(), 358,360);
 										
 								?>
 								

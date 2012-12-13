@@ -124,13 +124,17 @@ $tz_recent_number = get_option('tz_recent_number');
 						  $do_not_duplicate = $post->ID; ?>
 						  
 						  <div class="column">
-							  <h1><?php the_title() ?></h1>
+							  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 							  <h6><?php the_time(get_option('date_format')) ?></h6>
 						
 							 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
         						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
         					<?php endif; ?>
-							<?php the_excerpt()?>
+        					
+							<div class="excerpt">
+								<p><?php echo substr(get_the_excerpt(), 0, 150); ?>
+								   <?php if(strlen(get_the_excerpt()) > 150) : ?>...<?php endif; ?> </p>
+							</div><!--excerpt-->
 						 
 						 
 						</div> 	
@@ -141,18 +145,63 @@ $tz_recent_number = get_option('tz_recent_number');
 						  $do_not_duplicate = $post->ID; ?>
 						  
 						  <div class="column">
-							  <h1><?php the_title() ?></h1>
+							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 							  <h6><?php the_time(get_option('date_format')) ?></h6>
 						
 							 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
         						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
         					<?php endif; ?>
-							<?php the_excerpt()?>
+        					
+							<div class="excerpt">
+								<p><?php echo substr(get_the_excerpt(), 0, 150); ?>
+								   <?php if(strlen(get_the_excerpt()) > 150) : ?>...<?php endif; ?> </p>
+							</div><!--excerpt-->
 						 
 						 
 						</div> 	
 					<?php endwhile; ?>
                 
+                	<?php $my_query = new WP_Query('category_name=police&posts_per_page=1');
+						  while ($my_query->have_posts()) : $my_query->the_post();
+						  $do_not_duplicate = $post->ID; ?>
+						  
+						  <div class="column">
+							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+							  <h6><?php the_time(get_option('date_format')) ?></h6>
+						
+							 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
+        						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
+        					<?php endif; ?>
+        					
+							<div class="excerpt">
+								<p><?php echo substr(get_the_excerpt(), 0, 150); ?>
+								   <?php if(strlen(get_the_excerpt()) > 150) : ?>...<?php endif; ?> </p>
+							</div><!--excerpt-->
+						 
+						 
+						</div> 	
+					<?php endwhile; ?>
+					
+					<?php $my_query = new WP_Query('category_name=police&posts_per_page=1');
+						  while ($my_query->have_posts()) : $my_query->the_post();
+						  $do_not_duplicate = $post->ID; ?>
+						  
+						  <div class="columnlast">
+							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+							  <h6><?php the_time(get_option('date_format')) ?></h6>
+						
+							 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
+        						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
+        					<?php endif; ?>
+        					
+							<div class="excerpt">
+								<p><?php echo substr(get_the_excerpt(), 0, 150); ?>
+								   <?php if(strlen(get_the_excerpt()) > 150) : ?>...<?php endif; ?> </p>
+							</div><!--excerpt-->
+						 
+						 
+						</div> 	
+					<?php endwhile; ?>
             </div><!--grid_8 alpha omega or news8Col-->
     	
     	

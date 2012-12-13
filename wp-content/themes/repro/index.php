@@ -7,6 +7,8 @@ $tz_slider_display = get_option('tz_slider_display');
 $tz_post_grid_display = get_option('tz_post_grid_display');
 $tz_top_blocks = get_option('tz_top_blocks');
 $tz_bottom_blocks = get_option('tz_bottom_blocks');
+$tz_recent_title = get_option('tz_recent_title');
+$tz_recent_number = get_option('tz_recent_number');
 
 ?>
 
@@ -111,9 +113,9 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
     <div class="container_12">
     	
             
-               <!--<?php get_template_part('index', 'post-columns'); ?>-->
+
                	
-              <div class="news8Col">
+              <div class="post_columns">
             
            
                	
@@ -125,8 +127,9 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 							  <h1><?php the_title() ?></h1>
 							  <h6><?php the_time(get_option('date_format')) ?></h6>
 						
-							 <!--image-->
-							 <?php the_post_thumbnail(array(300,220)) ?>
+							 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
+        						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
+        					<?php endif; ?>
 							<?php the_excerpt()?>
 						 
 						 

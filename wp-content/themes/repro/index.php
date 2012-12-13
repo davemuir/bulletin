@@ -135,6 +135,23 @@ $tz_recent_number = get_option('tz_recent_number');
 						 
 						</div> 	
 					<?php endwhile; ?>
+					
+					<?php $my_query = new WP_Query('category_name=police&posts_per_page=1');
+						  while ($my_query->have_posts()) : $my_query->the_post();
+						  $do_not_duplicate = $post->ID; ?>
+						  
+						  <div class="column">
+							  <h1><?php the_title() ?></h1>
+							  <h6><?php the_time(get_option('date_format')) ?></h6>
+						
+							 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
+        						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
+        					<?php endif; ?>
+							<?php the_excerpt()?>
+						 
+						 
+						</div> 	
+					<?php endwhile; ?>
                 
             </div><!--grid_8 alpha omega or news8Col-->
     	

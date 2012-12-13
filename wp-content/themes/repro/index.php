@@ -111,7 +111,7 @@ $tz_recent_number = get_option('tz_recent_number');
     
     
     <div class="container_12">
-    	
+    	<?php get_template_part('index', 'post-columns'); ?>
             
 
                	

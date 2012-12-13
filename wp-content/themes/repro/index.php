@@ -29,7 +29,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 						</div>
 						<div id="latest_image">
 							 <!--image-->
-							 <?php the_post_thumbnail(array(300,228)) ?>
+							 <?php the_post_thumbnail(array(300,220)) ?>
 						</div>
 						<div id="latest_excerpt">
 							<div id="col1">

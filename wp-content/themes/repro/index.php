@@ -19,7 +19,8 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 				<div id="top_news">
 					
 					
-					<?php $my_query = new WP_Query('category_name=top-news&posts_per_page=1');
+					<?php 
+						  $my_query = new WP_Query('category_name=latest&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
@@ -111,8 +112,8 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
     	
     	<div class="grid_12 alpha omega">
             
-               <!-- <?php get_template_part('index', 'post-columns'); ?>-->
-               
+           
+               	
                <?php $my_query = new WP_Query('category_name=sports&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>

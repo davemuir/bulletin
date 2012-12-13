@@ -110,7 +110,10 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
     
     <div class="container_12">
     	
-    	<div class="grid_12 alpha omega">
+            
+               <!--<?php get_template_part('index', 'post-columns'); ?>-->
+               	
+              <div class="news8Col">
             
            
                	
@@ -130,7 +133,7 @@ $tz_bottom_blocks = get_option('tz_bottom_blocks');
 						</div> 	
 					<?php endwhile; ?>
                 
-            </div><!--grid_8 alpha omega-->
+            </div><!--grid_8 alpha omega or news8Col-->
     	
     	
     	<div class="clear"></div>

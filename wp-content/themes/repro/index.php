@@ -28,7 +28,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  
 						  <div id="latest_head">
 							  <h1><?php the_title() ?></h1>
-							  <h6><?php the_time(get_option('date_format')) ?></h6>
+							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
 						</div>
 						<div id="latest_image">
 							 <!--image-->
@@ -111,10 +111,7 @@ $tz_recent_number = get_option('tz_recent_number');
     
     
     <div class="container_12">
-    	<?php get_template_part('index', 'post-columns'); ?>
-            
-
-               	
+        	  <h4><span>Sectionals</span></h4>
               <div class="post_columns">
             
            
@@ -124,8 +121,9 @@ $tz_recent_number = get_option('tz_recent_number');
 						  $do_not_duplicate = $post->ID; ?>
 						  
 						  <div class="column">
+						  	  <h4><span><?php echo the_category();?></span></h4>
 							  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-							  <h6><?php the_time(get_option('date_format')) ?></h6>
+							  <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
 						
 							 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
         						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
@@ -146,7 +144,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  
 						  <div class="column">
 							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-							  <h6><?php the_time(get_option('date_format')) ?></h6>
+							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
 						
 							 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
         						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
@@ -167,7 +165,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  
 						  <div class="column">
 							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-							  <h6><?php the_time(get_option('date_format')) ?></h6>
+							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
 						
 							 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
         						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
@@ -188,7 +186,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  
 						  <div class="column last">
 							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-							  <h6><?php the_time(get_option('date_format')) ?></h6>
+							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
 						
 							 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
         						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
@@ -209,7 +207,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  
 						  <div class="column">
 							  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-							  <h6><?php the_time(get_option('date_format')) ?></h6>
+							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
 						
 							 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
         						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
@@ -230,7 +228,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  
 						  <div class="column">
 							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-							  <h6><?php the_time(get_option('date_format')) ?></h6>
+							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
 						
 							 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
         						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
@@ -251,7 +249,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  
 						  <div class="column">
 							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-							  <h6><?php the_time(get_option('date_format')) ?></h6>
+							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
 						
 							 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
         						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
@@ -266,13 +264,13 @@ $tz_recent_number = get_option('tz_recent_number');
 						</div> 	
 					<?php endwhile; ?>
 					
-					<?php $my_query = new WP_Query('category_name=police&posts_per_page=1');
+					<?php $my_query = new WP_Query('category_name=latest&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
 						  <div class="column last">
 							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-							  <h6><?php the_time(get_option('date_format')) ?></h6>
+							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
 						
 							 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
         						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>

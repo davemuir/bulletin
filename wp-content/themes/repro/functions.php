@@ -317,7 +317,7 @@ function get_category_count($input = '') {
 }
 //custom wordpress excerpt length FUNCTION_POLYNOMIAL over rides the_excerpt()
 
-add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
 
 //read more link
 function new_excerpt_more($more) {

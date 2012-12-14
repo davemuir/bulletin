@@ -165,6 +165,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  $do_not_duplicate = $post->ID; ?>
 						  
 						  <div class="column">
+						  	<h4><span><?php the_category();?></span></h4>
 							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
 						
@@ -186,6 +187,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  $do_not_duplicate = $post->ID; ?>
 						  
 						  <div class="column last">
+						  	<h4><span><?php the_category();?></span></h4>
 							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
 						
@@ -201,12 +203,15 @@ $tz_recent_number = get_option('tz_recent_number');
 						 
 						</div> 	
 					<?php endwhile; ?>
-					               	
+					      
+					      <div class="clear"></div>
+					      
                <?php $my_query = new WP_Query('category_name=sports&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
 						  <div class="column">
+						  	<h4><span><?php the_category();?></span></h4>
 							  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
 						
@@ -228,6 +233,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  $do_not_duplicate = $post->ID; ?>
 						  
 						  <div class="column">
+						  	<h4><span><?php the_category();?></span></h4>
 							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
 						
@@ -249,6 +255,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  $do_not_duplicate = $post->ID; ?>
 						  
 						  <div class="column">
+						  	<h4><span><?php the_category();?></span></h4>
 							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
 						
@@ -270,6 +277,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  $do_not_duplicate = $post->ID; ?>
 						  
 						  <div class="column last">
+						  	<h4><span><?php the_category();?></span></h4>
 							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
 						

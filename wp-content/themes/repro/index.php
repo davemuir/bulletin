@@ -77,14 +77,14 @@ $tz_recent_number = get_option('tz_recent_number');
 				<div id="galleria">
 					<!--make looping photo addition-->
 					
-					<a href="./wp-content/themes/repro/tscene/551135_10150827479526173_506396172_9902842_477219287_n.jpg"><img src="./wp-content/themes/repro/tscene/551135_10150827479526173_506396172_9902842_477219287_n.jpg "></a>
-					<a href="./wp-content/themes/repro/tscene/game-of-thrones-jon-snow.png"><img src="./wp-content/themes/repro/tscene/game-of-thrones-jon-snow.png "></a>
-					<a href="./wp-content/themes/repro/tscene/Orion-M43-nebula-enhanced.jpg"><img src="./wp-content/themes/repro/tscene/Orion-M43-nebula-enhanced.jpg "></a>
-					<a href="./wp-content/themes/repro/tscene/deran.jpg"><img src="./wp-content/themes/repro/tscene/deran.jpg " data-title="guitar" data-big="./wp-content/themes/repro/images/deran.jpg"></a>
-					<a href="./wp-content/themes/repro/tscene/Uwy8J.jpg"><img src="./wp-content/themes/repro/tscene/Uwy8J.jpg "></a>
-					<a href="./wp-content/themes/repro/tscene/Orion-M43-nebula-enhanced.jpg"><img src="./wp-content/themes/repro/tscene/Orion-M43-nebula-enhanced.jpg "></a>
-					<a href="./wp-content/themes/repro/tscene/deran.jpg"><img src="./wp-content/themes/repro/tscene/deran.jpg " data-title="guitar" data-big="./wp-content/themes/repro/images/deran.jpg"></a>
-					<a href="./wp-content/themes/repro/tscene/Uwy8J.jpg"><img src="./wp-content/themes/repro/tscene/Uwy8J.jpg "></a>
+					<a href="./wp-content/themes/repro/tscene/amusement_park_toronto_ontario_canada_photo_ottawa_tourism.jpeg"><img src="./wp-content/themes/repro/tscene/amusement_park_toronto_ontario_canada_photo_ottawa_tourism.jpeg "></a>
+					<a href="./wp-content/themes/repro/tscene/Casa-Loma-Urban-Toronto.jpeg"><img src="./wp-content/themes/repro/tscene/Casa-Loma-Urban-Toronto.jpeg "></a>
+					<a href="./wp-content/themes/repro/tscene/t1.jpeg"><img src="./wp-content/themes/repro/tscene/t1.jpeg "></a>
+					<a href="./wp-content/themes/repro/tscene/tonipic2.jpeg"><img src="./wp-content/themes/repro/tscene/tonipic2.jpeg " data-title="guitar" data-big="./wp-content/themes/repro/images/tonipic2.jpeg"></a>
+					<a href="./wp-content/themes/repro/tscene/toronto_05_04_03015.jpeg"><img src="./wp-content/themes/repro/tscene/toronto_05_04_03015.jpeg "></a>
+					<a href="./wp-content/themes/repro/tscene/toronto-old-town-hall.jpeg"><img src="./wp-content/themes/repro/tscene/toronto-old-town-hall.jpeg "></a>
+					<a href="./wp-content/themes/repro/tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg"><img src="./wp-content/themes/repro/tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg " data-title="guitar" data-big="./wp-content/themes/repro/images/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg"></a>
+					<a href="./wp-content/themes/repro/tscene/TorontoHummingbirdCentre_CourtesyTorontoTourism.jpeg"><img src="./wp-content/themes/repro/tscene/TorontoHummingbirdCentre_CourtesyTorontoTourism.jpeg "></a>
 					<script>
 					 Galleria.loadTheme('./wp-content/themes/repro/themes/classic/galleria.classic.min.js');
 					 Galleria.run('#galleria', {

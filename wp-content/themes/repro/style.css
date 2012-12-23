@@ -1223,7 +1223,7 @@ a:hover span.desc{
 .sidebar_ad a{
 	display:block;
 	padding:10px;
-	height:240px;
+	/*height:240px;  take away the huge height spacing*/
 	float:left;
 	background:url(images/header_advert_border.gif) repeat;
 }

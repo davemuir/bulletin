@@ -900,7 +900,7 @@ color:#2098A8;
 
 #sidebar .widget{
 	float:left;
-	margin:0 5px 121px;/* changed due to side bar div jump*/
+	/*margin:0 5px 121px; changed due to side bar div jump*/
 	width:290px;
 }
 

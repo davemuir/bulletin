@@ -1,8 +1,8 @@
 <?php
 /*
- * Plugin Name: Custom 125x125 Ad Unit
+ * Plugin Name: Custom 120x240 Ad Unit
  * Plugin URI: http://www.premiumpixels.com
- * Description: A widget that allows the selection and configuration of 6 125x125 ad units
+ * Description: A widget that allows the selection and configuration of a single 120x240 Banner
  * Version: 1.0
  * Author: Orman Clark
  * Author URI: http://www.premiumpixels.com
@@ -11,34 +11,34 @@
 /*
  * Add function to widgets_init that'll load our widget.
  */
-add_action( 'widgets_init', 'tz_ads_widgets' );
+add_action( 'widgets_init', 'tz_ad120x240_widgets' );
 
 /*
  * Register widget.
  */
-function tz_ads_widgets() {
-	register_widget( 'TZ_Ad_Widget' );
+function tz_ad120x240_widgets() {
+	register_widget( 'TZ_Ad120x240_Widget' );
 }
 
 /*
  * Widget class.
  */
-class tz_ad_widget extends WP_Widget {
+class tz_ad120x240_widget extends WP_Widget {
 
 	/* ---------------------------- */
 	/* -------- Widget setup -------- */
 	/* ---------------------------- */
 	
-	function TZ_Ad_Widget() {
+	function TZ_Ad120x240_Widget() {
 	
 		/* Widget settings */
-		$widget_ops = array( 'classname' => 'tz_ad_widget', 'description' => __('A widget that allows the display and configuration of 5 125x125 ads blocks.', 'framework') );
+		$widget_ops = array( 'classname' => 'tz_ad120x240_widget', 'description' => __('A widget that allows the display and configuration of of a single 120x240 Banner.', 'framework') );
 
 		/* Widget control settings */
-		$control_ops = array( 'width' => 300, 'height' => 350, 'id_base' => 'tz_ad_widget' );
+		$control_ops = array( 'width' => 300, 'height' => 350, 'id_base' => 'tz_ad120x240_widget' );
 
 		/* Create the widget */
-		$this->WP_Widget( 'tz_ad_widget', __('Custom 125x125 Ads', 'framework'), $widget_ops, $control_ops );
+		$this->WP_Widget( 'tz_ad120x240_widget', __('Custom 120x240 Ad', 'framework'), $widget_ops, $control_ops );
 	}
 
 	/* ---------------------------- */
@@ -50,17 +50,8 @@ class tz_ad_widget extends WP_Widget {
 
 		/* Our variables from the widget settings. */
 		$title = apply_filters('widget_title', $instance['title'] );
-		$ad1 = $instance['ad1'];
-		$ad2 = $instance['ad2'];
-		$ad3 = $instance['ad3'];
-		$ad4 = $instance['ad4'];
-		$ad5 = $instance['ad5'];
-		$link1 = $instance['link1'];
-		$link2 = $instance['link2'];
-		$link3 = $instance['link3'];
-		$link4 = $instance['link4'];
-		$link5 = $instance['link5'];
-		$randomize = $instance['random'];
+		$ad = $instance['ad'];
+		$link = $instance['link'];
 
 		/* Before widget (defined by themes). */
 		echo $before_widget;
@@ -68,47 +59,14 @@ class tz_ad_widget extends WP_Widget {
 		/* Display the widget title if one was input (before and after defined by themes). */
 		if ( $title )
 			echo $before_title . $title . $after_title;
-
-		//Randomize ads order in a new array
-		$ads = array();
 			
 		/* Display a containing div */
-		echo '<div class="advert">';
-		echo '<ul>';
+		echo '<div class="sidebar_ad">';
 
-		/* Display Ad 1. */
-		if ( $ad1 )
-			$ads[] = '<li><a href="' . $link1 . '"><img src="' . $ad1 . '" width="125" height="125" alt="" /></a></li>';
-		
-		/* Display Ad 2. */
-		if ( $ad2 )
-			$ads[] = '<li><a href="' . $link2 . '"><img src="' . $ad2 . '" width="125" height="125" alt="" /></a></li>';
+		/* Display Ad */
+		if ( $ad )
+			echo '<a href="' . $link . '"><img src="' . $ad . '" width="234" height="60" alt="" /></a>';
 			
-		/* Display Ad 3. */
-		if ( $ad3 )
-			$ads[] = '<li><a href="' . $link3 . '"><img src="' . $ad3 . '" width="125" height="125" alt="" /></a></li>';
-			
-		/* Display Ad 4. */
-		if ( $ad4 )
-			$ads[] = '<li><a href="' . $link4 . '"><img src="' . $ad4 . '" width="125" height="125" alt="" /></a></li>';
-			
-		/* Display Ad 5. */
-		if ( $ad5 )
-			$ads[] = '<li><a href="' . $link5 . '"><img src="' . $ad5 . '" width="125" height="125" alt="" /></a></li>';
-			
-		
-		
-		//Randomize order if user want it
-		if ($randomize){
-			shuffle($ads);
-		}
-		
-		//Display ads
-		foreach($ads as $ad){
-			echo $ad;
-		}
-		
-		echo '</ul>';
 		echo '</div>';
 
 		/* After widget (defined by themes). */
@@ -122,22 +80,13 @@ class tz_ad_widget extends WP_Widget {
 	function update( $new_instance, $old_instance ) {
 		$instance = $old_instance;
 
-		/* Strip tags to remove HTML (important for text inputs). */
+		/* Strip tags for title and name to remove HTML (important for text inputs). */
 		$instance['title'] = strip_tags( $new_instance['title'] );
 
 		/* No need to strip tags */
-		$instance['ad1'] = $new_instance['ad1'];
-		$instance['ad2'] = $new_instance['ad2'];
-		$instance['ad3'] = $new_instance['ad3'];
-		$instance['ad4'] = $new_instance['ad4'];
-		$instance['ad5'] = $new_instance['ad5'];
-		$instance['link1'] = $new_instance['link1'];
-		$instance['link2'] = $new_instance['link2'];
-		$instance['link3'] = $new_instance['link3'];
-		$instance['link4'] = $new_instance['link4'];
-		$instance['link5'] = $new_instance['link5'];
-		$instance['random'] = $new_instance['random'];
-		
+		$instance['ad'] = $new_instance['ad'];
+		$instance['link'] = $new_instance['link'];
+
 		return $instance;
 	}
 	
@@ -155,18 +104,9 @@ class tz_ad_widget extends WP_Widget {
 	
 		/* Set up some default widget settings. */
 		$defaults = array(
-		'title' => 'Our Sponsors',
-		'ad1' => get_bloginfo('template_directory')."/images/advert_125.jpg",
-		'link1' => 'http://www.premiumpixels.com',
-		'ad2' => get_bloginfo('template_directory')."/images/advert_125.jpg",
-		'link2' => 'http://www.premiumpixels.com',
-		'ad3' => '',
-		'link3' => '',
-		'ad4' => '',
-		'link4' => '',
-		'ad5' => '',
-		'link5' => '',
-		'random' => false
+		'title' => '',
+		'ad' => get_bloginfo('template_directory')."/images/sidebar_ad.jpg",
+		'link' => 'http://www.premiumpixels.com',
 		);
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
 
@@ -176,76 +116,18 @@ class tz_ad_widget extends WP_Widget {
 			<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" value="<?php echo $instance['title']; ?>" />
 		</p>
 
-		<!-- Ad 1 image url: Text Input -->
+		<!-- Ad image url: Text Input -->
 		<p>
-			<label for="<?php echo $this->get_field_id( 'ad1' ); ?>"><?php _e('Ad 1 image url:', 'framework') ?></label>
-			<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'ad1' ); ?>" name="<?php echo $this->get_field_name( 'ad1' ); ?>" value="<?php echo $instance['ad1']; ?>" />
+			<label for="<?php echo $this->get_field_id( 'ad' ); ?>"><?php _e('Ad image url:', 'framework') ?></label>
+			<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'ad' ); ?>" name="<?php echo $this->get_field_name( 'ad' ); ?>" value="<?php echo $instance['ad']; ?>" />
 		</p>
 		
-		<!-- Ad 1 link url: Text Input -->
+		<!-- Ad link url: Text Input -->
 		<p>
-			<label for="<?php echo $this->get_field_id( 'link1' ); ?>"><?php _e('Ad 1 link url:', 'framework') ?></label>
-			<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'link1' ); ?>" name="<?php echo $this->get_field_name( 'link1' ); ?>" value="<?php echo $instance['link1']; ?>" />
+			<label for="<?php echo $this->get_field_id( 'link' ); ?>"><?php _e('Ad link url:', 'framework') ?></label>
+			<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'link' ); ?>" name="<?php echo $this->get_field_name( 'link' ); ?>" value="<?php echo $instance['link']; ?>" />
 		</p>
 		
-		<!-- Ad 2 image url: Text Input -->
-		<p>
-			<label for="<?php echo $this->get_field_id( 'ad2' ); ?>"><?php _e('Ad 2 image url:', 'framework') ?></label>
-			<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'ad2' ); ?>" name="<?php echo $this->get_field_name( 'ad2' ); ?>" value="<?php echo $instance['ad2']; ?>" />
-		</p>
-		
-		<!-- Ad 2 link url: Text Input -->
-		<p>
-			<label for="<?php echo $this->get_field_id( 'link2' ); ?>"><?php _e('Ad 2 link url:', 'framework') ?></label>
-			<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'link2' ); ?>" name="<?php echo $this->get_field_name( 'link2' ); ?>" value="<?php echo $instance['link2']; ?>" />
-		</p>
-		
-		<!-- Ad 3 image url: Text Input -->
-		<p>
-			<label for="<?php echo $this->get_field_id( 'ad3' ); ?>"><?php _e('Ad 3 image url:', 'framework') ?></label>
-			<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'ad3' ); ?>" name="<?php echo $this->get_field_name( 'ad3' ); ?>" value="<?php echo $instance['ad3']; ?>" />
-		</p>
-		
-		<!-- Ad 3 link url: Text Input -->
-		<p>
-			<label for="<?php echo $this->get_field_id( 'link3' ); ?>"><?php _e('Ad 3 link url:', 'framework') ?></label>
-			<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'link3' ); ?>" name="<?php echo $this->get_field_name( 'link3' ); ?>" value="<?php echo $instance['link3']; ?>" />
-		</p>
-		
-		<!-- Ad 4 image url: Text Input -->
-		<p>
-			<label for="<?php echo $this->get_field_id( 'ad4' ); ?>"><?php _e('Ad 4 image url:', 'framework') ?></label>
-			<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'ad4' ); ?>" name="<?php echo $this->get_field_name( 'ad4' ); ?>" value="<?php echo $instance['ad4']; ?>" />
-		</p>
-		
-		<!-- Ad 4 link url: Text Input -->
-		<p>
-			<label for="<?php echo $this->get_field_id( 'link4' ); ?>"><?php _e('Ad 4 link url:', 'framework') ?></label>
-			<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'link4' ); ?>" name="<?php echo $this->get_field_name( 'link4' ); ?>" value="<?php echo $instance['link4']; ?>" />
-		</p>
-		
-		<!-- Ad 5 image url: Text Input -->
-		<p>
-			<label for="<?php echo $this->get_field_id( 'ad5' ); ?>"><?php _e('Ad 5 image url:', 'framework') ?></label>
-			<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'ad5' ); ?>" name="<?php echo $this->get_field_name( 'ad5' ); ?>" value="<?php echo $instance['ad5']; ?>" />
-		</p>
-		
-		<!-- Ad 5 link url: Text Input -->
-		<p>
-			<label for="<?php echo $this->get_field_id( 'link5' ); ?>"><?php _e('Ad 5 link url:', 'framework') ?></label>
-			<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'link5' ); ?>" name="<?php echo $this->get_field_name( 'link5' ); ?>" value="<?php echo $instance['link5']; ?>" />
-		</p>
-		
-		
-		<!-- Randomize? -->
-		<p>
-			<label for="<?php echo $this->get_field_id( 'random' ); ?>"><?php _e('Randomize ads order?', 'framework') ?></label>
-			<?php if ($instance['random']){ ?>
-				<input type="checkbox" id="<?php echo $this->get_field_id( 'random' ); ?>" name="<?php echo $this->get_field_name( 'random' ); ?>" checked="checked" />
-			<?php } else { ?>
-				<input type="checkbox" id="<?php echo $this->get_field_id( 'random' ); ?>" name="<?php echo $this->get_field_name( 'random' ); ?>"  />
-			<?php } ?>
-		</p>
 	<?php
 	}
 }

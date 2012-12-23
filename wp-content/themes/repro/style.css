@@ -15,7 +15,9 @@ Version: 1.2.1
 @import url('css/tooltips.css');
 
 /* Global -------------------------------------------------------------------- */
-
+#socialIcons{
+height:50px;
+}
 #galleria{
 width:620px;
 height:448px;

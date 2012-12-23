@@ -96,10 +96,7 @@ class tz_ad_widget extends WP_Widget {
 		if ( $ad5 )
 			$ads[] = '<li><a href="' . $link5 . '"><img src="' . $ad5 . '" width="125" height="125" alt="" /></a></li>';
 			
-		/* Display Ad 6. */
-		if ( $ad6 )
-			$ads[] = '<li><a href="' . $link6 . '"><img src="' . $ad6 . '" width="125" height="125" alt="" /></a></li>';
-			
+		
 		
 		//Randomize order if user want it
 		if ($randomize){
@@ -134,13 +131,11 @@ class tz_ad_widget extends WP_Widget {
 		$instance['ad3'] = $new_instance['ad3'];
 		$instance['ad4'] = $new_instance['ad4'];
 		$instance['ad5'] = $new_instance['ad5'];
-		$instance['ad6'] = $new_instance['ad6'];
 		$instance['link1'] = $new_instance['link1'];
 		$instance['link2'] = $new_instance['link2'];
 		$instance['link3'] = $new_instance['link3'];
 		$instance['link4'] = $new_instance['link4'];
 		$instance['link5'] = $new_instance['link5'];
-		$instance['link6'] = $new_instance['link6'];
 		$instance['random'] = $new_instance['random'];
 		
 		return $instance;
@@ -171,8 +166,6 @@ class tz_ad_widget extends WP_Widget {
 		'link4' => '',
 		'ad5' => '',
 		'link5' => '',
-		'ad6' => '',
-		'link6' => '',
 		'random' => false
 		);
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
@@ -243,17 +236,6 @@ class tz_ad_widget extends WP_Widget {
 			<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'link5' ); ?>" name="<?php echo $this->get_field_name( 'link5' ); ?>" value="<?php echo $instance['link5']; ?>" />
 		</p>
 		
-		<!-- Ad 6 image url: Text Input -->
-		<p>
-			<label for="<?php echo $this->get_field_id( 'ad6' ); ?>"><?php _e('Ad 6 image url:', 'framework') ?></label>
-			<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'ad6' ); ?>" name="<?php echo $this->get_field_name( 'ad6' ); ?>" value="<?php echo $instance['ad6']; ?>" />
-		</p>
-		
-		<!-- Ad 6 link url: Text Input -->
-		<p>
-			<label for="<?php echo $this->get_field_id( 'link6' ); ?>"><?php _e('Ad 6 link url:', 'framework') ?></label>
-			<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'link6' ); ?>" name="<?php echo $this->get_field_name( 'link6' ); ?>" value="<?php echo $instance['link6']; ?>" />
-		</p>
 		
 		<!-- Randomize? -->
 		<p>

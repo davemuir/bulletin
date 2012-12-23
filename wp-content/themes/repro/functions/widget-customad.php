@@ -32,13 +32,13 @@ class tz_ad_widget extends WP_Widget {
 	function TZ_Ad_Widget() {
 	
 		/* Widget settings */
-		$widget_ops = array( 'classname' => 'tz_ad_widget', 'description' => __('A widget that allows a custom ad size', 'framework') );
+		$widget_ops = array( 'classname' => 'tz_ad_widget', 'description' => __('A widget that allows the display and configuration of 6 125x125 ads blocks.', 'framework') );
 
 		/* Widget control settings */
 		$control_ops = array( 'width' => 300, 'height' => 350, 'id_base' => 'tz_ad_widget' );
 
 		/* Create the widget */
-		$this->WP_Widget( 'tz_ad_widget', __('Custom bulletin Ads', 'framework'), $widget_ops, $control_ops );
+		$this->WP_Widget( 'tz_ad_widget', __('Custom 125x125 Ads', 'framework'), $widget_ops, $control_ops );
 	}
 
 	/* ---------------------------- */
@@ -55,13 +55,11 @@ class tz_ad_widget extends WP_Widget {
 		$ad3 = $instance['ad3'];
 		$ad4 = $instance['ad4'];
 		$ad5 = $instance['ad5'];
-		$ad6 = $instance['ad6'];
 		$link1 = $instance['link1'];
 		$link2 = $instance['link2'];
 		$link3 = $instance['link3'];
 		$link4 = $instance['link4'];
 		$link5 = $instance['link5'];
-		$link6 = $instance['link6'];
 		$randomize = $instance['random'];
 
 		/* Before widget (defined by themes). */

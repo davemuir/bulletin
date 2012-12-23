@@ -66,8 +66,6 @@ class tz_ad120x240_widget extends WP_Widget {
 		/* Display Ad */
 		if ( $ad )
 			echo '<a href="' . $link . '"><img src="' . $ad . '" width="234" height="60" alt="" /></a>';
-			echo '<a href="' . $link . '"><img src="' . $ad . '" width="234" height="60" alt="" /></a>';
-			echo '<a href="' . $link . '"><img src="' . $ad . '" width="234" height="60" alt="" /></a>';
 			
 		echo '</div>';
 

@@ -327,8 +327,7 @@ function new_excerpt_more($more) {
 add_filter('excerpt_more', 'new_excerpt_more');
 
 
-// Add the custom bulletin Ad Block Custom Widget
-include("functions/widget-customad.php");
+
 
 // Add the 125x125 Ad Block Custom Widget
 include("functions/widget-ad125.php");

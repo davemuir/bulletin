@@ -58,7 +58,9 @@ $tz_recent_number = get_option('tz_recent_number');
 				</div><!--end topnews-->
 			</div><!--end grid8-->	
 			<div class="new_grid_4">
-	
+				<div id="socialIcons">
+				<a href="#"></a>
+				</div>
 				<?php get_sidebar(); ?>
 	  
 			 </div><!--grid_4-->

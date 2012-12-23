@@ -32,13 +32,13 @@ class tz_ad120x240_widget extends WP_Widget {
 	function TZ_Ad120x240_Widget() {
 	
 		/* Widget settings */
-		$widget_ops = array( 'classname' => 'tz_ad120x240_widget', 'description' => __('A widget that allows the display and configuration of of a single 120x240 Banner.', 'framework') );
+		$widget_ops = array( 'classname' => 'tz_ad120x240_widget', 'description' => __('A widget that allows the display and configuration of of a single 290x60 Banner.', 'framework') );
 
 		/* Widget control settings */
 		$control_ops = array( 'width' => 300, 'height' => 350, 'id_base' => 'tz_ad120x240_widget' );
 
 		/* Create the widget */
-		$this->WP_Widget( 'tz_ad120x240_widget', __('Custom 120x240 Ad', 'framework'), $widget_ops, $control_ops );
+		$this->WP_Widget( 'tz_ad120x240_widget', __('Custom bulletin Ad', 'framework'), $widget_ops, $control_ops );
 	}
 
 	/* ---------------------------- */
@@ -65,7 +65,7 @@ class tz_ad120x240_widget extends WP_Widget {
 
 		/* Display Ad */
 		if ( $ad )
-			echo '<a href="' . $link . '"><img src="' . $ad . '" width="234" height="60" alt="" /></a>';
+			echo '<a href="' . $link . '"><img src="' . $ad . '" width="290" height="60" alt="" /></a>';
 			
 		echo '</div>';
 

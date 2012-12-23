@@ -16,7 +16,7 @@ Version: 1.2.1
 
 /* Global -------------------------------------------------------------------- */
 #socialIcons{
-height:50px;
+height:36px;
 }
 #galleria{
 width:620px;
@@ -966,7 +966,9 @@ a:hover span.desc{
 }
 
 /* Advert -------------- */
-
+.advert{
+margin-top:47px;
+}
 #sidebar .advert li{
 	float:left;
 	margin:0 0 0px 0;

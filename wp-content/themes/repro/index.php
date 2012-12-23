@@ -59,7 +59,6 @@ $tz_recent_number = get_option('tz_recent_number');
 			</div><!--end grid8-->	
 			<div class="new_grid_4">
 				<div id="socialIcons">
-				<h4 style="margin-top:25px;color:#2098A8"><span> Connect </span></h4>
 				<a href="#">twitter</a>
 				<a href="#">facebook</a>
 				<a href="#">gmail</a>

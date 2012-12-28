@@ -64,7 +64,7 @@ $tz_recent_number = get_option('tz_recent_number');
 					<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FThe-Bulletin-Record-Zambia%2F153672558013677%3Fref%3Dts%26fref%3Dts&amp;send=false&amp;layout=button_count&amp;width=150&amp;show_faces=false&amp;font=arial&amp;colorscheme=light&amp;action=like&amp;height=90&amp;appId=323978084354873" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:90px;" allowTransparency="true"></iframe>				
 				</div>
 				<div style="float:left;width:150px;height:36px;">
-					    <a href="https://twitter.com/twitterapi" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false" show_screen_name="true" data-lang="en">Follow @twitterapi</a>
+					    <a href="https://twitter.com/twitterapi" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true" show_screen_name="true" data-lang="en">Follow @twitterapi</a>
 
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 				</div>

@@ -13,7 +13,14 @@ $tz_recent_number = get_option('tz_recent_number');
 ?>
 
 <div id="the_body">
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=323978084354873";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	   
 	   <div class="container_12">
         <h4><span>Toronto's Latest</span></h4>
@@ -61,10 +68,10 @@ $tz_recent_number = get_option('tz_recent_number');
 			<div class="new_grid_4">
 				<div id="socialIcons">
 				<div style="float:left;width:150px;height:36px;">
-					<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FThe-Bulletin-Record-Zambia%2F153672558013677%3Fref%3Dts%26fref%3Dts&amp;send=false&amp;layout=button_count&amp;width=150&amp;show_faces=false&amp;font=arial&amp;colorscheme=light&amp;action=like&amp;height=90&amp;appId=323978084354873" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:90px;" allowTransparency="true"></iframe>				
+					<div class="fb-like" data-href="http://www.facebook.com/pages/The-Bulletin-Record-Zambia/153672558013677?ref=ts&amp;fref=ts" data-send="true" data-layout="button_count" data-width="200" data-show-faces="false" data-font="arial"></div>		
 				</div>
 				<div style="float:left;width:150px;height:36px;">
-					    <a href="https://twitter.com/twitterapi" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true" show_screen_name="true" data-lang="en">Follow @twitterapi</a>
+					    <a href="https://twitter.com/twitterapi" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true" show_screen_name="true" data-lang="en">Follow @thebulletinca</a>
 
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 				</div>

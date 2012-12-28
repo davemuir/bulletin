@@ -13,7 +13,16 @@ $tz_recent_number = get_option('tz_recent_number');
 ?>
 
 <div id="the_body">
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=323978084354873";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	   
+	   
 	   <div class="container_12">
         <h4><span>Toronto's Latest</span></h4>
         <div id="the_middle">
@@ -59,8 +68,9 @@ $tz_recent_number = get_option('tz_recent_number');
 			</div><!--end grid8-->	
 			<div class="new_grid_4">
 				<div id="socialIcons">
-				<a href="#">twitter</a>
-				<a href="#">facebook</a>
+				<div>
+				<div class="fb-like" data-href="http://www.facebook.com/pages/The-Bulletin-Record-Zambia/153672558013677?ref=ts&amp;fref=ts" data-send="true" data-width="450" data-show-faces="false"></div>
+				</div>
 				<a href="#">gmail</a>
 				</div>
 				<?php get_sidebar(); ?>

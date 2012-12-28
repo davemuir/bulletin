@@ -22,7 +22,6 @@ $tz_recent_number = get_option('tz_recent_number');
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 	   
-	   
 	   <div class="container_12">
         <h4><span>Toronto's Latest</span></h4>
         <div id="the_middle">
@@ -69,7 +68,7 @@ $tz_recent_number = get_option('tz_recent_number');
 			<div class="new_grid_4">
 				<div id="socialIcons">
 				<div>
-				<div class="fb-like" data-href="http://www.facebook.com/pages/The-Bulletin-Record-Zambia/153672558013677?ref=ts&amp;fref=ts" data-send="true" data-width="450" data-show-faces="false"></div>
+				<div class="fb-like" data-href="http://www.facebook.com/pages/The-Bulletin-Record-Zambia/153672558013677?ref=ts&amp;fref=ts" data-send="true" data-width="150" data-height="36" data-show-faces="false"></div>
 				</div>
 				<a href="#">gmail</a>
 				</div>

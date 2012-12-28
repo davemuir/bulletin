@@ -60,9 +60,14 @@ $tz_recent_number = get_option('tz_recent_number');
 			</div><!--end grid8-->	
 			<div class="new_grid_4">
 				<div id="socialIcons">
-				
-<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FThe-Bulletin-Record-Zambia%2F153672558013677%3Fref%3Dts%26fref%3Dts&amp;send=false&amp;layout=box_count&amp;width=150&amp;show_faces=false&amp;font=arial&amp;colorscheme=light&amp;action=like&amp;height=90&amp;appId=323978084354873" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:90px;" allowTransparency="true"></iframe>				
-				
+				<div>
+					<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FThe-Bulletin-Record-Zambia%2F153672558013677%3Fref%3Dts%26fref%3Dts&amp;send=false&amp;layout=box_count&amp;width=150&amp;show_faces=false&amp;font=arial&amp;colorscheme=light&amp;action=like&amp;height=90&amp;appId=323978084354873" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:90px;" allowTransparency="true"></iframe>				
+				</div>
+				<div>
+					    <a href="https://twitter.com/twitterapi" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @twitterapi</a>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
 				</div>
 				<?php get_sidebar(); ?>
 	  

@@ -15,8 +15,9 @@ Version: 1.2.1
 @import url('css/tooltips.css');
 
 /* Global -------------------------------------------------------------------- */
-#latest_head h1{
-
+#latest_head h1 a{
+color:black;
+font-size:30px;
 }
 #socialIcons{
 height:36px;

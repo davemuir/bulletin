@@ -54,7 +54,7 @@ $tz_recent_number = get_option('tz_recent_number');
 								<?php echo substr(get_the_excerpt(), 340,340);
 										
 								?>
-								...<a href="<?php the_permalink(); ?>">Read More</a>
+								...<a class="readMores" href="<?php the_permalink(); ?>">Read More</a>
 								</p>
 						 	</div>
 						 

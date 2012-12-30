@@ -15,9 +15,15 @@ Version: 1.2.1
 @import url('css/tooltips.css');
 
 /* Global -------------------------------------------------------------------- */
+.readMores{
+color:purple;
+}
 #latest_head h1 a{
 color:black;
 font-size:30px;
+}
+#latest_head h1 a:hover{
+color:#2098A8;
 }
 #socialIcons{
 height:36px;

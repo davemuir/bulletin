@@ -542,7 +542,7 @@ pre {
 
 /* Post Columns, Post Grid, Category List -------------- */
 
-.post_columns h4, .post_grid h4, .category_list h4, #sidebar .widget h4, #author h4, #related h4, .container_12 h4, .column h4{
+.post_columns h4, .post_grid h4, .category_list h4, #sidebar .widget h4, #author h4, #related h4, .container_12 h4, .column h4, .column_cat h4{
 	background:url(images/header_bg.gif) center repeat-x;
 	display:block;
 	font-size:14px;
@@ -559,7 +559,7 @@ pre {
 	width:610px;
 }
 
-.post_columns h4 span, .post_grid h4 span, .category_list h4 span, #sidebar .widget h4 span, #author h4 span, #related h4 span,.container_12 h4 span,.column h4 span ul li a{
+.post_columns h4 span, .post_grid h4 span, .category_list h4 span, #sidebar .widget h4 span, #author h4 span, #related h4 span,.container_12 h4 span,.column h4 span ul li a,.column_cat h4 span ul li a{
 	background: url(images/body_bg.gif) repeat;
 	padding:0 10px 0 10px;
 	margin:0 0 0 19px;

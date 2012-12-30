@@ -137,7 +137,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
-						  <div class="column">
+						  <div class="column cat">
 						  	  <h4><span><?php the_category();?></span></h4>
 						  	  
 						  	   <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
@@ -162,7 +162,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
-						  <div class="column">
+						  <div class="column cat">
 						  	<h4><span><?php the_category();?></span></h4>
 						  	 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
         						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
@@ -185,7 +185,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
-						  <div class="column">
+						  <div class="column cat">
 						  	<h4><span><?php the_category();?></span></h4>
 						  	<?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
         						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
@@ -233,7 +233,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
-						  <div class="column">
+						  <div class="column cat">
 						  	<h4><span><?php the_category();?></span></h4>
 						  	 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
         						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
@@ -256,7 +256,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
-						  <div class="column">
+						  <div class="column cat">
 						  	<h4><span><?php the_category();?></span></h4>
 						  	<?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
         						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
@@ -279,7 +279,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
-						  <div class="column">
+						  <div class="column cat">
 						  	<h4><span><?php the_category();?></span></h4>
 						  	 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
         						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>

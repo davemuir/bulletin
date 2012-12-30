@@ -612,7 +612,7 @@ color:#2098A8;
 	margin:0 0 40px 0;
 }
 
-.post_columns .column .image a{
+.post_columns .column .image a, .post_columns .column_cat .image a{
 	width:184px;
 	height:144px;
 }
@@ -666,7 +666,7 @@ color:#2098A8;
 }
 
 
-.post_columns .column .image a, .post_grid li a, .category_list li .image a, .tab li .image a, .flickr div a, .full_posts .image a, #content img, #author .image, #related .column .image a, #comments li .image{
+.post_columns .column .image a, .post_grid li a, .category_list li .image a, .tab li .image a, .flickr div a, .full_posts .image a, #content img, #author .image, #related .column .image a, #comments li .image,.post_columns .column_cat .image a{
 	padding:2px;
 	border:1px solid #c6c6c6;
 	-webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
@@ -676,12 +676,12 @@ color:#2098A8;
 }
 
 
-.post_columns .column .image a:hover, .category_list li .image a:hover, .tab li .image a:hover, .full_posts .image a:hover, #related .column .image a:hover, #comments li .image a:hover{
+.post_columns .column .image a:hover,.post_columns .column_cat .image a:hover, .category_list li .image a:hover, .tab li .image a:hover, .full_posts .image a:hover, #related .column .image a:hover, #comments li .image a:hover{
 	border:1px solid #999;
 }
 
 
-.post_columns .column h3, #related .column h3 a{
+.post_columns .column h3,.post_columns .column_cat h3, #related .column h3 a{
 	display:block;
 	color:#444444;
 	font-size:14px;
@@ -691,15 +691,15 @@ color:#2098A8;
 	line-height:24px;
 }
 
-.post_columns h3 a{
+.post_columns h3 a,.post_columns .column_cat h3 a{
 	color:#444444;
 }
 
-.post_columns h3 a:hover, #related .column h3 a:hover{
+.post_columns h3 a:hover,.post_columns .column_cat a:hover, #related .column h3 a:hover{
 	color:#cc6633;
 }
 
-.post_columns .column .date, .category_list li .details .date, .tab li .details .date, .full_posts .details .date{
+.post_columns .column .date,.post_columns .column_cat .date, .category_list li .details .date, .tab li .details .date, .full_posts .details .date{
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-style:italic;
 	font-size:11px;
@@ -711,15 +711,15 @@ color:#2098A8;
 	margin:0;
 }
 
-.post_columns .column .date a, .category_list li .details .date a, .tab li .details .date a, .full_posts .details .date a{
+.post_columns .column .date a,.post_columns .column_cat .date a, .category_list li .details .date a, .tab li .details .date a, .full_posts .details .date a{
 	color:#aaaaaa;
 }
 
-.post_columns .column .date a:hover, .category_list li .details .date a:hover, .tab li .details .date a:hover, .full_posts .details .date a:hover{
+.post_columns .column .date a:hover,.post_columns .column_cat .date a:hover, .category_list li .details .date a:hover, .tab li .details .date a:hover, .full_posts .details .date a:hover{
 	color:#444444;
 }
 
-.post_columns .column .excerpt p{
+.post_columns .column .excerpt p, .post_columns .column_cat .excerpt p{
 	font-size:12px;
 	line-height:20px;
 }

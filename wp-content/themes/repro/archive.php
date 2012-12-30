@@ -83,7 +83,7 @@
                             
                             <div class="excerpt"><!--changed to get the excerpt-->
                                 <p><?php echo substr(get_the_excerpt(), 0, 150); ?>
-                               <?php if(strlen(get_the_excerpt()) > 150) : ?>...<?php endif; ?> </p>
+                               <?php if(strlen(get_the_excerpt()) > 150) : ?>...<a href="<?php the_permalink(); ?>">read more</a><?php endif; ?> </p>
                             </div><!--excerpt-->
                         
                         </div><!--details-->

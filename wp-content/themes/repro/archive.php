@@ -81,8 +81,8 @@
                             
                             <div class="date"><?php the_time( get_option('date_format') ); ?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?> </div><!--date-->
                             
-                            <div class="excerpt">
-                                <?php the_excerpt(); ?>
+                            <div class="excerpt"><!--changed to get the excerpt-->
+                                <?php get_the_excerpt(); ?>
                             </div><!--excerpt-->
                         
                         </div><!--details-->

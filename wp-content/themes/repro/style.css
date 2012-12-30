@@ -567,13 +567,13 @@ pre {
 
 
 /* keeps links blue*/
-.column h4 span ul li a:visited{
+.column h4 span ul li a:visited,.column_cat h4 span ul li a:visited{
 color:#2098A8;
 }
-.column h4 span ul li a:hover{
+.column h4 span ul li a:hover,.column_cat h4 span ul li a:hover{
 color:#2098A8;
 }
-.column h4 span ul li a{
+.column h4 span ul li a,.column_cat h4 span ul li a{
 color:#2098A8;
 }
 

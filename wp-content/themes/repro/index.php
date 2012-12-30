@@ -35,7 +35,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						  $do_not_duplicate = $post->ID; ?>
 						  
 						  <div id="latest_head">
-							  <h1><?php the_title() ?></h1>
+							  <h1><a href="<?php the_permalink(); ?>"><?php the_title() ?></a></h1>
 							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
 						</div>
 						<div id="latest_image">

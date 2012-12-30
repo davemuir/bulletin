@@ -82,7 +82,8 @@
                             <div class="date"><?php the_time( get_option('date_format') ); ?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?> </div><!--date-->
                             
                             <div class="excerpt"><!--changed to get the excerpt-->
-                                <?php get_the_excerpt(); ?>
+                                <p><?php echo substr(get_the_excerpt(), 0, 150); ?>
+                               <?php if(strlen(get_the_excerpt()) > 150) : ?>...<?php endif; ?> </p>
                             </div><!--excerpt-->
                         
                         </div><!--details-->

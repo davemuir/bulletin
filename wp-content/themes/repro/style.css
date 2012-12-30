@@ -18,12 +18,11 @@ Version: 1.2.1
 .readMores{
 color:purple;
 }
-#latest_head h1 a{
-color:black;
-font-size:30px;
-}
 #latest_head h1 a:hover{
 color:#2098A8;
+}
+#latest_head h1 a:visited{
+text-decoration:none;
 }
 #socialIcons{
 height:36px;
@@ -52,7 +51,7 @@ float:left;
 margin-left:10px;
 }
 #top_news h1{
-font-size:28px;
+font-size:36px;
 padding:17px 0 17px 0;
 line-height:100%;
 }

@@ -157,7 +157,7 @@ if ( function_exists('register_sidebar') ) {
 // Add support for WP 2.9 post thumbnails
 if ( function_exists( 'add_theme_support' ) ) { // Added in 2.9
 	add_theme_support( 'post-thumbnails' );
-	add_image_size( 'slider-preview', 100%, 100%, true ); // Slider large image
+	add_image_size( 'slider-preview', 275, 270, true ); // Slider large image
 	add_image_size( 'slider-thumbnail', 85, 60, true ); // Slider thumbnail
 	add_image_size( 'column-preview', 184, 144, true ); // Column size
 	add_image_size( 'single-large', 604, 272, true ); // Single post/page large

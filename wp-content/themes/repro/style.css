@@ -18,6 +18,9 @@ Version: 1.2.1
 .readMores{
 color:purple;
 }
+#latest_head h1 a{
+color:#444444;
+}
 #latest_head h1 a:hover{
 color:#2098A8;
 }

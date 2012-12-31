@@ -15,7 +15,10 @@ Version: 1.2.1
 @import url('css/tooltips.css');
 
 /* Global -------------------------------------------------------------------- */
-
+.slider_image a img{
+height:100%;
+width:100%;
+}
 .readMores{
 color:purple;
 }

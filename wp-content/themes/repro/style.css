@@ -19,6 +19,10 @@ Version: 1.2.1
 height:100%;
 width:100%;
 }
+.post_columns .column .image a img{
+height:100%;
+width:100%;
+}
 .readMores{
 color:purple;
 }

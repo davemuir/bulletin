@@ -13,14 +13,7 @@ $tz_recent_number = get_option('tz_recent_number');
 ?>
 
 <div id="the_body">
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=323978084354873";
-  fjs.parentNode.insertBefore(js, fjs);jpeg
-}(document, 'script', 'facebook-jssdk'));</script>
+
 	   
 	   <div class="container_12">
         <h4><span>Toronto's Latest</span></h4>

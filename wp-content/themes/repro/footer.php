@@ -45,7 +45,7 @@
             
             <div class="grid_6">
             
-                <p class="right"><?php _e('Powered by', 'framework') ?> <a href="http://wordpress.org/"><?php _e('WordPress', 'framework') ?></a>. <a href="http://www.themezilla.com/themes/repro">Repro Theme</a> by <a href="http://www.themezilla.com">ThemeZilla</a></p>
+                <p class="right"><?php _e('Powered by', 'framework') ?> <a href="http://wordpress.org/"><?php _e('WordPress', 'framework') ?></a>. <a href="http://www.themezilla.com/themes/repro">Repro Theme</a> by <a href="http://www.themezilla.com">ThemeZilla</a>  <br/>Site Design by <a href="http://davidmuirdesign.com">David Muir Design</a></p>
             
             </div><!--grid_6-->
             

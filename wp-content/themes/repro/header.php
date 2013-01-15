@@ -22,8 +22,8 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	
 	<?php wp_head(); ?>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-	<script src="./wp-content/themes/repro/js/galleria-1.2.8.min.js"></script>
+	
+	
 <!-- END head -->
 </head>
 <!-- BEGIN body -->

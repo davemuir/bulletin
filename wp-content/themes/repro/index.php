@@ -79,32 +79,12 @@ $tz_recent_number = get_option('tz_recent_number');
     </div><!--container_12-->
     
     <div class="container_12">
-        <h4 class="hfour"><span> Toronto Scene </span></h4>
+        <h4 class="hfour"><span> Down-town Seen </span></h4>
         <div id="the_middle">
 			<!--includes slider-->
 			<div class="grid_8">
 				
-				<div id="galleria">
-					<!--make looping photo addition-->
-					
-					<a href="./wp-content/themes/repro/tscene/amusement_park_toronto_ontario_canada_photo_ottawa_tourism.jpeg"><img src="./wp-content/themes/repro/tscene/amusement_park_toronto_ontario_canada_photo_ottawa_tourism.jpeg "></a>
-					<a href="./wp-content/themes/repro/tscene/Casa-Loma-Urban-Toronto.jpeg"><img src="./wp-content/themes/repro/tscene/Casa-Loma-Urban-Toronto.jpeg "></a>
-					<a href="./wp-content/themes/repro/tscene/t1.jpeg"><img src="./wp-content/themes/repro/tscene/t1.jpeg "></a>
-					<a href="./wp-content/themes/repro/tscene/tonipic2.jpeg"><img src="./wp-content/themes/repro/tscene/tonipic2.jpeg " data-title="guitar" data-big="./wp-content/themes/repro/images/tonipic2.jpeg"></a>
-					<a href="./wp-content/themes/repro/tscene/toronto_05_04_03015.jpeg"><img src="./wp-content/themes/repro/tscene/toronto_05_04_03015.jpeg "></a>
-					<a href="./wp-content/themes/repro/tscene/toronto-old-town-hall.jpeg"><img src="./wp-content/themes/repro/tscene/toronto-old-town-hall.jpeg "></a>
-					<a href="./wp-content/themes/repro/tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg"><img src="./wp-content/themes/repro/tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg " data-title="guitar" data-big="./wp-content/themes/repro/images/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg"></a>
-					<a href="./wp-content/themes/repro/tscene/TorontoHummingbirdCentre_CourtesyTorontoTourism.jpeg"><img src="./wp-content/themes/repro/tscene/TorontoHummingbirdCentre_CourtesyTorontoTourism.jpeg "></a>
-					<script>
-					 Galleria.loadTheme('./wp-content/themes/repro/themes/classic/galleria.classic.min.js');
-					 Galleria.run('#galleria', {
-						transition: 'fade',
-						autoplay:true,
-						autoplay:4000,
-						pauseOnInteraction:true,
-						thumbCrop:true
-					});
-					</script>
+				<div id="homeSlider">
 				</div>
 			</div><!--end grid8-->	
 			<div class="new_grid_4">

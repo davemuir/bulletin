@@ -1,19 +1,17 @@
 
 <?php get_header(); ?>
 
-<?php
 
+
+<?php
 $tz_slider_display = get_option('tz_slider_display');
 $tz_post_grid_display = get_option('tz_post_grid_display');
 $tz_top_blocks = get_option('tz_top_blocks');
 $tz_bottom_blocks = get_option('tz_bottom_blocks');
 $tz_recent_title = get_option('tz_recent_title');
 $tz_recent_number = get_option('tz_recent_number');
-
 ?>
-
 <div id="the_body">
-
 	   
 	   <div class="container_12">
         <h4><span>Toronto's Latest</span></h4>
@@ -53,9 +51,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						 
 						</div> 	
 					<?php endwhile; ?>
-
 					
-
 				</div><!--end topnews-->
 			</div><!--end grid8-->	
 			<div class="new_grid_4">
@@ -65,7 +61,6 @@ $tz_recent_number = get_option('tz_recent_number');
 				</div>
 				<div style="float:left;width:150px;height:36px;">
 					    <a href="https://twitter.com/TheBulletinca" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true" show_screen_name="true" data-lang="en">Follow @thebulletinca</a>
-
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 				</div>
 				</div>
@@ -85,6 +80,81 @@ $tz_recent_number = get_option('tz_recent_number');
 			<div class="grid_8">
 				
 				<div id="homeSlider">
+				
+					
+					<!-- Begin DWUser_EasyRotator -->
+					<script type="text/javascript" src="http://c520866.r66.cf2.rackcdn.com/1/js/easy_rotator.min.js"></script>
+					<div class="dwuserEasyRotator" style="width: 620px; height: 448px; position:relative; text-align: left;" data-erConfig="{autoplayEnabled:false, lpp:'102-105-108-101-58-47-47-47-85-115-101-114-115-47-49-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47', wv:1}" data-erName="main slider" data-erTID="{8s6bdl8rk7395158728531}">
+						<div data-ertype="content" style="display: none;"><ul data-erlabel="Main Category">
+						<li>
+							<img class="main" src="tscene/amusement_park_toronto_ontario_canada_photo_ottawa_tourism.jpeg" />
+							<img class="thumb" src="tscene/amusement_park_toronto_ontario_canada_photo_ottawa_tourism.jpeg" />
+						</li>
+						<li>
+							<img class="main" src="tscene/Casa-Loma-Urban-Toronto.jpeg" />
+							<img class="thumb" src="tscene/Casa-Loma-Urban-Toronto.jpeg" />
+						</li>
+						<li>
+							<img class="main" src="tscene/t1.jpeg" />
+							<img class="thumb" src="tscene/t1.jpeg" />
+						</li>
+						<li>
+							<img class="main" src="tscene/tonipic2.jpeg" />
+							<img class="thumb" src="tscene/tonipic2.jpeg" />
+						</li>
+						<li>
+							<img class="main" src="tscene/toronto-old-town-hall.jpeg" />
+							<img class="thumb" src="tscene/toronto-old-town-hall.jpeg" />
+						</li>
+						<li>
+							<img class="main" src="tscene/toronto_05_04_03015.jpeg" />
+							<img class="thumb" src="tscene/toronto_05_04_03015.jpeg" />
+						</li>
+						<li>
+							<img class="main" src="tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg" />
+							<img class="thumb" src="tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg" />
+						</li>
+						<li>
+							<img class="main" src="tscene/TorontoHummingbirdCentre_CourtesyTorontoTourism.jpeg" />
+							<img class="thumb" src="tscene/TorontoHummingbirdCentre_CourtesyTorontoTourism.jpeg" />
+						</li>
+					</ul>
+					</div>
+						<div data-ertype="layout" data-ertemplateName="NONE" style="">			<div class="erimgMain" style="position: absolute; left:0;right:0;top:0;bottom:0;" data-erConfig="{___numTiles:3, scaleMode:'fillArea', imgType:'main', __loopNextButton:false, arrowButtonMode:'rollover'}">
+									<div class="erimgMain_slides" style="position: absolute; left:0px; top:0; bottom:0; right:0px;">
+										<div class="erimgMain_slide">
+											<div class="erimgMain_img" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"></div>
+										</div>
+									</div>
+									<div class="erimgMain_arrowLeft" style="position:absolute; left: 10px; top: 50%; margin-top: -15px;" data-erConfig="{image:'circleSmall', image2:'circleSmall'}"></div>
+									<div class="erimgMain_arrowRight" style="position:absolute; right: 10px; top: 50%; margin-top: -15px;"></div>
+								</div>
+								<div class="erimgMain rotatorTileNav" style="position: absolute; left:27px;width:490px;bottom:20px;height:64px;" data-erConfig="{numTiles:5, scaleMode:'fillArea', imgType:'thumb', loopNextButton:false, arrowButtonMode:'rollover', __slideLinkEvent:'rollover'}">
+									<div class="erimgMain_slides" style="position: absolute; left:0px; top:0; bottom:0; right:0px;">
+										<div class="erimgMain_slide">
+											<div class="selectionArrow visibleWhenSelected" style="position: absolute; top: 0; left: 0; right: 6px; bottom: 0; background: #FFF;"></div>
+											<div class="erimgMain_img" style="position: absolute; left: 2px; right: 8px; top: 2px; bottom: 2px; border: 2px solid #FFF;"></div>
+										</div>
+									</div>
+									<!-- 
+									<div class="erimgMain_arrowLeft" style="position:absolute; left: 60px; top: 50%; margin-top: -10px;" data-erConfig="{image:'circleSmall', image2:'circleSmall'}"></div>
+									<div class="erimgMain_arrowRight" style="position:absolute; right: 60px; top: 50%; margin-top: -10px;"></div>
+									-->
+								</div><div class="erabout erFixCSS3" style="color: #FFF; text-align: left; background: #000; background:rgba(0,0,0,0.93); border: 2px solid #FFF; padding: 20px; font: normal 11px/14px Verdana,_sans; width: 300px; border-radius: 10px; display:none;">
+								This <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">jQuery slider</a> was created with the free <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">EasyRotator</a> software from DWUser.com.
+								<br /><br />
+								Use WordPress? The free <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/wordpress/" target="_blank">EasyRotator for WordPress</a> plugin lets you create beautiful <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/wordpress/" target="_blank">WordPress sliders</a> in seconds.
+								<br /><br />
+								<a style="color:#FFF;" href="#" class="erabout_ok">OK</a>   
+							</div>
+							<noscript>
+								Rotator powered by <a href="http://www.dwuser.com/easyrotator/">EasyRotator</a>, a free and easy jQuery slider builder from DWUser.com.  Please enable JavaScript to view.
+							</noscript>
+							<script type="text/javascript">/*Avoid IE gzip bug*/(function(b,c,d){try{if(!b[d]){b[d]="temp";var a=c.createElement("script");a.type="text/javascript";a.src="http://easyrotator.s3.amazonaws.com/1/js/nozip/easy_rotator.min.js";c.getElementsByTagName("head")[0].appendChild(a)}}catch(e){alert("EasyRotator fail; contact support.")}})(window,document,"er_$144");</script>
+						
+						</div>
+					</div>
+					<!-- End DWUser_EasyRotator -->
 				</div>
 			</div><!--end grid8-->	
 			<div class="new_grid_4">
@@ -298,7 +368,5 @@ $tz_recent_number = get_option('tz_recent_number');
     	
     	<div class="clear"></div>
     </div><!--container_12-->
-
 </div><!--the_body-->
-
 <?php get_footer(); ?>

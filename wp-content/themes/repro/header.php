@@ -153,13 +153,18 @@
               
             </div><!--grid_5-->
 			<div id="topAdRotater">	
+
 <!-- Begin DWUser_EasyRotator -->
 <script type="text/javascript" src="http://c520866.r66.cf2.rackcdn.com/1/js/easy_rotator.min.js"></script>
 <div class="dwuserEasyRotator" style="width: 468px; height: 60px; position:relative; text-align: left;" data-erConfig="{autoplayEnabled:false, lpp:'102-105-108-101-58-47-47-47-85-115-101-114-115-47-49-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47', wv:1}" data-erName="topAdRotater">
 	<div data-ertype="content" style="display: none;"><ul data-erlabel="top ads">
 	<li>
-		<img class="main" src="tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg" />
+		<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg" />
 		<img class="thumb" src="tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg" />
+	</li>
+	<li>
+		<img class="main" src="tscene/toronto-old-town-hall.jpeg" />
+		<img class="thumb" src="tscene/toronto-old-town-hall.jpeg" />
 	</li>
 </ul>
 </div>
@@ -209,6 +214,7 @@
 	</div>
 </div>
 <!-- End DWUser_EasyRotator -->
+
 			</div>
 			
             <?php if ($tz_banner_header == "true") : /* Display 468x60 banner if checked in theme options */ ?>

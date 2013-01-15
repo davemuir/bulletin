@@ -178,7 +178,7 @@
 				<!-- <div class="erimgMain_arrowLeft" style="position:absolute; left: 10px; top: 50%; margin-top: -15px;" data-erConfig="{image:'circleSmall', image2:'circleSmall'}"></div>
 				<div class="erimgMain_arrowRight" style="position:absolute; right: 10px; top: 50%; margin-top: -15px;"></div> -->
 			</div>
-			<div class="" style="position: absolute; left:0; right:0; bottom: 20px; padding: 7px 200px 7px 20px; background: #000; background:rgba(0,0,0,0.9); color: #FFF; font-family: Georgia, 'Times New Roman', Times, _serif; text-align: left;">
+			<!--<div class="" style="position: absolute; left:0; right:0; bottom: 20px; padding: 7px 200px 7px 20px; background: #000; background:rgba(0,0,0,0.9); color: #FFF; font-family: Georgia, 'Times New Roman', Times, _serif; text-align: left;">
 				<p class="erdynamicText" data-erfield="title" style="padding: 0; margin: 0 0 3px 0; font-weight: bold; font-size: 22px; color: #FFF;"></p>
 				<p class="erdynamicText" data-erfield="desc" style="padding: 0; margin: 0; font: 12px/16px Arial,_sans; color: #FFF;"></p>
 			</div>
@@ -194,7 +194,8 @@
 						&nbsp;
 					</span>
 				</div>
-			</div><div class="erabout erFixCSS3" style="color: #FFF; text-align: left; background: #000; background:rgba(0,0,0,0.93); border: 2px solid #FFF; padding: 20px; font: normal 11px/14px Verdana,_sans; width: 300px; border-radius: 10px; display:none;">
+			</div>-->
+			<div class="erabout erFixCSS3" style="color: #FFF; text-align: left; background: #000; background:rgba(0,0,0,0.93); border: 2px solid #FFF; padding: 20px; font: normal 11px/14px Verdana,_sans; width: 300px; border-radius: 10px; display:none;">
 			This <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">jQuery slider</a> was created with the free <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">EasyRotator</a> software from DWUser.com.
 			<br /><br />
             Use WordPress? The free <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/wordpress/" target="_blank">EasyRotator for WordPress</a> plugin lets you create beautiful <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/wordpress/" target="_blank">WordPress sliders</a> in seconds.

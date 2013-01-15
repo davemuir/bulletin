@@ -76,10 +76,10 @@ $tz_recent_number = get_option('tz_recent_number');
     <div class="container_12">
         <h4 class="hfour"><span> Down-town Seen </span></h4>
         <div id="the_middle">
-			<!--includes slider-->
+			
 			<div class="grid_8">
 				
-				<div id="homeSlider">
+				<div id="galleria">
 				
 					
 					<!-- Begin DWUser_EasyRotator -->

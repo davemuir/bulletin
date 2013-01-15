@@ -22,7 +22,7 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	
 	<?php wp_head(); ?>
-	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 	
 <!-- END head -->
 </head>
@@ -197,7 +197,6 @@
 
 
 			</div>
-			<div class="clear"></div>
 			
             <?php if ($tz_banner_header == "true") : /* Display 468x60 banner if checked in theme options */ ?>
             

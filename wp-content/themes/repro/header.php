@@ -197,6 +197,7 @@
 
 
 			</div>
+			<div class="clear"></div>
 			
             <?php if ($tz_banner_header == "true") : /* Display 468x60 banner if checked in theme options */ ?>
             

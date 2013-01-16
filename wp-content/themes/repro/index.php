@@ -87,36 +87,36 @@ $tz_recent_number = get_option('tz_recent_number');
 					<div class="dwuserEasyRotator" style="width: 620px; height: 448px; position:relative; text-align: left;" data-erConfig="{autoplayEnabled:false, lpp:'102-105-108-101-58-47-47-47-85-115-101-114-115-47-49-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47', wv:1}" data-erName="main slider" data-erTID="{8s6bdl8rk7395158728531}">
 						<div data-ertype="content" style="display: none;"><ul data-erlabel="Main Category">
 						<li>
-							<img class="main" src="tscene/amusement_park_toronto_ontario_canada_photo_ottawa_tourism.jpeg" />
-							<img class="thumb" src="tscene/amusement_park_toronto_ontario_canada_photo_ottawa_tourism.jpeg" />
+							<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/amusement_park_toronto_ontario_canada_photo_ottawa_tourism.jpeg" />
+							<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/amusement_park_toronto_ontario_canada_photo_ottawa_tourism.jpeg" />
 						</li>
 						<li>
-							<img class="main" src="tscene/Casa-Loma-Urban-Toronto.jpeg" />
-							<img class="thumb" src="tscene/Casa-Loma-Urban-Toronto.jpeg" />
+							<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/Casa-Loma-Urban-Toronto.jpeg" />
+							<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/Casa-Loma-Urban-Toronto.jpeg" />
 						</li>
 						<li>
-							<img class="main" src="tscene/t1.jpeg" />
-							<img class="thumb" src="tscene/t1.jpeg" />
+							<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/t1.jpeg" />
+							<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/t1.jpeg" />
 						</li>
 						<li>
-							<img class="main" src="tscene/tonipic2.jpeg" />
-							<img class="thumb" src="tscene/tonipic2.jpeg" />
+							<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/tonipic2.jpeg" />
+							<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/tonipic2.jpeg" />
 						</li>
 						<li>
-							<img class="main" src="tscene/toronto-old-town-hall.jpeg" />
-							<img class="thumb" src="tscene/toronto-old-town-hall.jpeg" />
+							<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/toronto-old-town-hall.jpeg" />
+							<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/toronto-old-town-hall.jpeg" />
 						</li>
 						<li>
-							<img class="main" src="tscene/toronto_05_04_03015.jpeg" />
-							<img class="thumb" src="tscene/toronto_05_04_03015.jpeg" />
+							<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/toronto_05_04_03015.jpeg" />
+							<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/toronto_05_04_03015.jpeg" />
 						</li>
 						<li>
-							<img class="main" src="tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg" />
-							<img class="thumb" src="tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg" />
+							<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg" />
+							<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg" />
 						</li>
 						<li>
-							<img class="main" src="tscene/TorontoHummingbirdCentre_CourtesyTorontoTourism.jpeg" />
-							<img class="thumb" src="tscene/TorontoHummingbirdCentre_CourtesyTorontoTourism.jpeg" />
+							<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/TorontoHummingbirdCentre_CourtesyTorontoTourism.jpeg" />
+							<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/TorontoHummingbirdCentre_CourtesyTorontoTourism.jpeg" />
 						</li>
 					</ul>
 					</div>

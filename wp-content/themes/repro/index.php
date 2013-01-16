@@ -1,8 +1,6 @@
 
 <?php get_header(); ?>
 
-
-
 <?php
 $tz_slider_display = get_option('tz_slider_display');
 $tz_post_grid_display = get_option('tz_post_grid_display');
@@ -82,44 +80,45 @@ $tz_recent_number = get_option('tz_recent_number');
 				<div id="galleria">
 				
 					
-					<!-- Begin DWUser_EasyRotator -->
+
+<!-- Begin DWUser_EasyRotator -->
 					<script type="text/javascript" src="http://c520866.r66.cf2.rackcdn.com/1/js/easy_rotator.min.js"></script>
-					<div class="dwuserEasyRotator" style="width: 620px; height: 448px; position:relative; text-align: left;" data-erConfig="{autoplayEnabled:false, lpp:'102-105-108-101-58-47-47-47-85-115-101-114-115-47-49-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47', wv:1}" data-erName="main slider" data-erTID="{8s6bdl8rk7395158728531}">
+					<div class="dwuserEasyRotator" style="width: 620px; height: 448px; position:relative; text-align: left;" data-erConfig="{autoplayEnabled:true, lpp:'102-105-108-101-58-47-47-47-85-115-101-114-115-47-49-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47', wv:1}" data-erName="main slider" data-erTID="{8s6bdl8rk7395158728531}">
 						<div data-ertype="content" style="display: none;"><ul data-erlabel="Main Category">
-						<li>
-							<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/amusement_park_toronto_ontario_canada_photo_ottawa_tourism.jpeg" />
-							<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/amusement_park_toronto_ontario_canada_photo_ottawa_tourism.jpeg" />
-						</li>
-						<li>
-							<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/Casa-Loma-Urban-Toronto.jpeg" />
-							<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/Casa-Loma-Urban-Toronto.jpeg" />
-						</li>
-						<li>
-							<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/t1.jpeg" />
-							<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/t1.jpeg" />
-						</li>
-						<li>
-							<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/tonipic2.jpeg" />
-							<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/tonipic2.jpeg" />
-						</li>
-						<li>
-							<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/toronto-old-town-hall.jpeg" />
-							<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/toronto-old-town-hall.jpeg" />
-						</li>
-						<li>
-							<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/toronto_05_04_03015.jpeg" />
-							<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/toronto_05_04_03015.jpeg" />
-						</li>
-						<li>
-							<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg" />
-							<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg" />
-						</li>
-						<li>
-							<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/TorontoHummingbirdCentre_CourtesyTorontoTourism.jpeg" />
-							<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/TorontoHummingbirdCentre_CourtesyTorontoTourism.jpeg" />
-						</li>
-					</ul>
-					</div>
+	<li>
+		<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/amusement_park_toronto_ontario_canada_photo_ottawa_tourism.jpeg" />
+		<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/amusement_park_toronto_ontario_canada_photo_ottawa_tourism.jpeg" />
+	</li>
+	<li>
+		<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/Casa-Loma-Urban-Toronto.jpeg" />
+		<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/Casa-Loma-Urban-Toronto.jpeg" />
+	</li>
+	<li>
+		<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/t1.jpeg" />
+		<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/t1.jpeg" />
+	</li>
+	<li>
+		<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/tonipic2.jpeg" />
+		<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/tonipic2.jpeg" />
+	</li>
+	<li>
+		<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/toronto-old-town-hall.jpeg" />
+		<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/toronto-old-town-hall.jpeg" />
+	</li>
+	<li>
+		<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/toronto_05_04_03015.jpeg" />
+		<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/toronto_05_04_03015.jpeg" />
+	</li>
+	<li>
+		<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg" />
+		<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/TorontoEatonCentreGeese_CourtesyTorontoTourism.jpeg" />
+	</li>
+	<li>
+		<img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/TorontoHummingbirdCentre_CourtesyTorontoTourism.jpeg" />
+		<img class="thumb" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/TorontoHummingbirdCentre_CourtesyTorontoTourism.jpeg" />
+	</li>
+</ul>
+</div>
 						<div data-ertype="layout" data-ertemplateName="NONE" style="">			<div class="erimgMain" style="position: absolute; left:0;right:0;top:0;bottom:0;" data-erConfig="{___numTiles:3, scaleMode:'fillArea', imgType:'main', __loopNextButton:false, arrowButtonMode:'rollover'}">
 									<div class="erimgMain_slides" style="position: absolute; left:0px; top:0; bottom:0; right:0px;">
 										<div class="erimgMain_slide">
@@ -155,6 +154,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						</div>
 					</div>
 					<!-- End DWUser_EasyRotator -->
+
 				</div>
 			</div><!--end grid8-->	
 			<div class="new_grid_4">
@@ -175,7 +175,194 @@ $tz_recent_number = get_option('tz_recent_number');
               <div class="post_columns">
             
            
-               
+               	
+               <?php $my_query = new WP_Query('category_name=latest&posts_per_page=1');
+						  while ($my_query->have_posts()) : $my_query->the_post();
+						  $do_not_duplicate = $post->ID; ?>
+						  
+						  <div class="column_cat">
+						  	  <h4><span><?php the_category();?></span></h4>
+						  	  
+						  	   <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
+        						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
+        					<?php endif; ?>
+        					
+							  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+							  <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
+						
+							
+        					
+							<div class="excerpt">
+								<p><?php echo substr(get_the_excerpt(), 0, 150); ?>
+								   <?php if(strlen(get_the_excerpt()) > 150) : ?>...<?php endif; ?> </p>
+							</div><!--excerpt-->
+						 
+						 
+						</div> 	
+					<?php endwhile; ?>
+					
+					<?php $my_query = new WP_Query('category_name=localnews&posts_per_page=1');
+						  while ($my_query->have_posts()) : $my_query->the_post();
+						  $do_not_duplicate = $post->ID; ?>
+						  
+						  <div class="column_cat">
+						  	<h4><span><?php the_category();?></span></h4>
+						  	 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
+        						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
+        					<?php endif; ?>
+							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
+						
+							
+        					
+							<div class="excerpt">
+								<p><?php echo substr(get_the_excerpt(), 0, 150); ?>
+								   <?php if(strlen(get_the_excerpt()) > 150) : ?>...<?php endif; ?> </p>
+							</div><!--excerpt-->
+						 
+						 
+						</div> 	
+					<?php endwhile; ?>
+                
+                	<?php $my_query = new WP_Query('category_name=politics&posts_per_page=1');
+						  while ($my_query->have_posts()) : $my_query->the_post();
+						  $do_not_duplicate = $post->ID; ?>
+						  
+						  <div class="column_cat">
+						  	<h4><span><?php the_category();?></span></h4>
+						  	<?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
+        						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
+        					<?php endif; ?>
+							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
+						
+							
+        					
+							<div class="excerpt">
+								<p><?php echo substr(get_the_excerpt(), 0, 150); ?>
+								   <?php if(strlen(get_the_excerpt()) > 150) : ?>...<?php endif; ?> </p>
+							</div><!--excerpt-->
+						 
+						 
+						</div> 	
+					<?php endwhile; ?>
+					
+					<?php $my_query = new WP_Query('category_name=arts-life&posts_per_page=1');
+						  while ($my_query->have_posts()) : $my_query->the_post();
+						  $do_not_duplicate = $post->ID; ?>
+						  
+						  <div class="column last">
+						  	<h4><span><?php the_category();?></span></h4>
+						  	 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
+        						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
+        					<?php endif; ?>
+        					
+							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
+						
+							
+							<div class="excerpt">
+								<p><?php echo substr(get_the_excerpt(), 0, 150); ?>
+								   <?php if(strlen(get_the_excerpt()) > 150) : ?>...<?php endif; ?> </p>
+							</div><!--excerpt-->
+						 
+						 
+						</div> 	
+					<?php endwhile; ?>
+					      
+					      <div class="clear"></div>
+					      
+               <?php $my_query = new WP_Query('category_name=opinion&posts_per_page=1');
+						  while ($my_query->have_posts()) : $my_query->the_post();
+						  $do_not_duplicate = $post->ID; ?>
+						  
+						  <div class="column_cat">
+						  	<h4><span><?php the_category();?></span></h4>
+						  	 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
+        						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
+        					<?php endif; ?>
+							  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
+						
+							
+        					
+							<div class="excerpt">
+								<p><?php echo substr(get_the_excerpt(), 0, 150); ?>
+								   <?php if(strlen(get_the_excerpt()) > 150) : ?>...<?php endif; ?> </p>
+							</div><!--excerpt-->
+						 
+						 
+						</div> 	
+					<?php endwhile; ?>
+					
+					<?php $my_query = new WP_Query('category_name=law&posts_per_page=1');
+						  while ($my_query->have_posts()) : $my_query->the_post();
+						  $do_not_duplicate = $post->ID; ?>
+						  
+						  <div class="column_cat">
+						  	<h4><span><?php the_category();?></span></h4>
+						  	<?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
+        						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
+        					<?php endif; ?>
+							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
+						
+							 
+        					
+							<div class="excerpt">
+								<p><?php echo substr(get_the_excerpt(), 0, 150); ?>
+								   <?php if(strlen(get_the_excerpt()) > 150) : ?>...<?php endif; ?> </p>
+							</div><!--excerpt-->
+						 
+						 
+						</div> 	
+					<?php endwhile; ?>
+                
+                	<?php $my_query = new WP_Query('category_name=inspiration&posts_per_page=1');
+						  while ($my_query->have_posts()) : $my_query->the_post();
+						  $do_not_duplicate = $post->ID; ?>
+						  
+						  <div class="column_cat">
+						  	<h4><span><?php the_category();?></span></h4>
+						  	 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
+        						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
+        					<?php endif; ?>
+							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
+						
+							
+        					
+							<div class="excerpt">
+								<p><?php echo substr(get_the_excerpt(), 0, 150); ?>
+								   <?php if(strlen(get_the_excerpt()) > 150) : ?>...<?php endif; ?> </p>
+							</div><!--excerpt-->
+						 
+						 
+						</div> 	
+					<?php endwhile; ?>
+					
+					<?php $my_query = new WP_Query('category_name=intrigues&posts_per_page=1');
+						  while ($my_query->have_posts()) : $my_query->the_post();
+						  $do_not_duplicate = $post->ID; ?>
+						  
+						  <div class="column last">
+						  	<h4><span><?php the_category();?></span></h4>
+						  	 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : /* if post has post thumbnail */ ?>
+        						<div class="image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('column-preview'); ?></a></div>
+        					<?php endif; ?>
+							 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+							 <div class="date"><?php the_time( get_option('date_format') ); ?>,<br/><?php the_category('$seperator');?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
+						
+							
+        					
+							<div class="excerpt">
+								<p><?php echo substr(get_the_excerpt(), 0, 150); ?>
+								   <?php if(strlen(get_the_excerpt()) > 150) : ?>...<?php endif; ?> </p>
+							</div><!--excerpt-->
+						 
+						 
+						</div> 	
+					<?php endwhile; ?>
             </div><!--grid_8 alpha omega or news8Col-->
     	
     	

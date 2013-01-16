@@ -176,7 +176,7 @@ $tz_recent_number = get_option('tz_recent_number');
             
            
                	
-               <?php $my_query = new WP_Query('category_name=latest&posts_per_page=1');
+               <?php $my_query = new WP_Query('category_name=arts-life&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
@@ -201,7 +201,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						</div> 	
 					<?php endwhile; ?>
 					
-					<?php $my_query = new WP_Query('category_name=localnews&posts_per_page=1');
+					<?php $my_query = new WP_Query('category_name=business&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
@@ -224,7 +224,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						</div> 	
 					<?php endwhile; ?>
                 
-                	<?php $my_query = new WP_Query('category_name=politics&posts_per_page=1');
+                	<?php $my_query = new WP_Query('category_name=conspiracy&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
@@ -247,7 +247,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						</div> 	
 					<?php endwhile; ?>
 					
-					<?php $my_query = new WP_Query('category_name=arts-life&posts_per_page=1');
+					<?php $my_query = new WP_Query('category_name=police&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
@@ -272,7 +272,7 @@ $tz_recent_number = get_option('tz_recent_number');
 					      
 					      <div class="clear"></div>
 					      
-               <?php $my_query = new WP_Query('category_name=opinion&posts_per_page=1');
+               <?php $my_query = new WP_Query('category_name=sports&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
@@ -295,7 +295,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						</div> 	
 					<?php endwhile; ?>
 					
-					<?php $my_query = new WP_Query('category_name=law&posts_per_page=1');
+					<?php $my_query = new WP_Query('category_name=talk&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
@@ -318,7 +318,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						</div> 	
 					<?php endwhile; ?>
                 
-                	<?php $my_query = new WP_Query('category_name=inspiration&posts_per_page=1');
+                	<?php $my_query = new WP_Query('category_name=latest&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
@@ -341,7 +341,7 @@ $tz_recent_number = get_option('tz_recent_number');
 						</div> 	
 					<?php endwhile; ?>
 					
-					<?php $my_query = new WP_Query('category_name=intrigues&posts_per_page=1');
+					<?php $my_query = new WP_Query('category_name=latest&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  

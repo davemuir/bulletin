@@ -160,11 +160,11 @@
 <div class="dwuserEasyRotator" style="width: 468px; height: 60px; position:relative; text-align: left;" data-erConfig="{autoplayEnabled:true, lpp:'102-105-108-101-58-47-47-47-85-115-101-114-115-47-49-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47', wv:1, autoplayStopOnInteraction:false}" data-erName="topAdRotater" data-erTID="{wt7ratndh41511161728531}">
 	<div data-ertype="content" style="display: none;"><ul data-erlabel="top ads">
 	<li>
-		<a class="mainLink" href="http://www.google.ca"><img class="main" src="tscene/banner_468x60.gif" /></a>
+		<a class="mainLink" href="http://www.google.ca"><img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/banner_468x60.gif" /></a>
 		<img class="thumb" src="tscene/banner_468x60.gif" />
 	</li>
 	<li>
-		<a class="mainLink" href="http://www.davidmuirdesign.com"><img class="main" src="tscene/banner_468x60.gif" /></a>
+		<a class="mainLink" href="http://www.davidmuirdesign.com"><img class="main" src="http://bulletinstaging.herokuapp.com/wp-content/themes/repro/tscene/banner_468x60.gif" /></a>
 		<img class="thumb" src="tscene/banner_468x60.gif" />
 	</li> 
 </ul>

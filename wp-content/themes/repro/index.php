@@ -72,7 +72,7 @@ $tz_recent_number = get_option('tz_recent_number');
     </div><!--container_12-->
     
     <div class="container_12">
-        <h4 class="hfour"><span> Down-town Seen </span></h4>
+        <h4 class="hfour"><span> Downtown Seen </span></h4>
         <div id="the_middle">
 			
 			<div class="grid_8">
@@ -176,7 +176,7 @@ $tz_recent_number = get_option('tz_recent_number');
             
            
                	
-               <?php $my_query = new WP_Query('category_name=latest&posts_per_page=1');
+               <?php $my_query = new WP_Query('category_name=top&posts_per_page=1');
 						  while ($my_query->have_posts()) : $my_query->the_post();
 						  $do_not_duplicate = $post->ID; ?>
 						  
